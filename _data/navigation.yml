@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "News"
+    url: /news/
+  - title: "Accessing ExCL"
+    url: /accessing-excl/
+  - title: "About"
+    url: /about/
+  - title: "Documentation"
+    url: "https://docs.excl.ornl.gov"
