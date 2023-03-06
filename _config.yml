@@ -20,8 +20,8 @@ title_separator          : "-"
 name                     : "ExCL"
 description: >- # this means to ignore newlines until "baseurl:"
   Website for ExCL.
-url                      : "https://excl.ornl.gov" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl                  : # the subpath of your site, e.g. "/blog"
+url                      : "https://excl-docs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl                  : "ExCL-Website" # the subpath of your site, e.g. "/blog"
 repository               : "ExCL-Docs/ExCL-Website" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/ExCL-Logo-h.png"
@@ -36,7 +36,7 @@ comments:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                : # 
+    appid                : #
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
@@ -84,10 +84,10 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : 
+  username               :
 facebook:
-  username               : 
-  app_id                 : 
+  username               :
+  app_id                 :
   publisher              :
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
@@ -102,7 +102,7 @@ social:
 analytics:
   provider               : # google-gtag # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : 
+    tracking_id          :
     anonymize_ip         : false # true, false (default)
 
 
