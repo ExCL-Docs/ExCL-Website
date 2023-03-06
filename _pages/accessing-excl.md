@@ -5,10 +5,10 @@ permalink: /accessing-excl/
 toc: false
 ---
 
-![image]({{ site.baseurl }}{% link /assets/images/silicon.jpg %}){: .align-center}
+![image]({% link /assets/images/silicon.jpg %}){: .align-center}
 
 # Accessing ExCL
-Thanks for your interest in ExCL. We provide access to researchers using the following criteria: 1\) the researcher can demonstrate a need for experimental computer science on ExCL resources, 2\) the researcher can show a sufficient level of competency with the [target resource](https://docs.excl.ornl.gov/system-overview) and [privilege level]({{ site.baseurl }}{% link _pages/excl-priviledge-levels.md %}), and 3\) ExCL staff has sufficient resources in terms of hardware and staff to satisfy the researcher’s request.
+Thanks for your interest in ExCL. We provide access to researchers using the following criteria: 1\) the researcher can demonstrate a need for experimental computer science on ExCL resources, 2\) the researcher can show a sufficient level of competency with the [target resource](https://docs.excl.ornl.gov/system-overview) and [privilege level]({% link _pages/excl-priviledge-levels.md %}), and 3\) ExCL staff has sufficient resources in terms of hardware and staff to satisfy the researcher’s request.
 
 To use ExCL, researches need to have an approved project and an active account. The checklist below enumerates the steps for applying for access. We make project awards on at least a quarterly basis to industry, academia, laboratories, and others. Duration of projects is typically three or six months. Some systems have restrictions on access, such as the requirement for an NDA with the vendor, that we must navigate for each user, which may extend the time required for approval.
 

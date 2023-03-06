@@ -12,7 +12,7 @@ Our ExCL approach to facilitating experimental computer science on these resourc
 
 Keep in mind that increased levels of privilege will require more support and as such fewer projects and users at these elevated levels can be supported.
 
-![Access Levels]({{ site.baseurl }}{% link /assets/images/access-levels.png %}){: .align-center}
+![Access Levels]({% link /assets/images/access-levels.png %}){: .align-center}
 
 These levels can be summarized in the follow matrix:
 
