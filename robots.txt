@@ -1,1 +1,1 @@
-Sitemap: https://excl.ornl.gov/sitemap.xml
+Sitemap: https://excl-docs.github.io/ExCL-Website/sitemap.xml
