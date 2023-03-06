@@ -5,7 +5,7 @@ permalink: /about/
 toc: false
 ---
 
-![image](/assets/images/5100.jpg){: .align-center}
+![image]({{ site.baseurl }}{% link /assets/images/5100.jpg %}){: .align-center}
 
 # About ExCL
 

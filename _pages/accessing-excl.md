@@ -5,7 +5,7 @@ permalink: /accessing-excl/
 toc: false
 ---
 
-![image](/assets/images/silicon.jpg){: .align-center}
+![image]({{ site.baseurl }}{% link /assets/images/silicon.jpg %}){: .align-center}
 
 # Accessing ExCL
 Thanks for your interest in ExCL. We provide access to researchers using the following criteria: 1\) the researcher can demonstrate a need for experimental computer science on ExCL resources, 2\) the researcher can show a sufficient level of competency with the [target resource](https://docs.excl.ornl.gov/system-overview) and [privilege level]({{ site.baseurl }}{% link _pages/excl-priviledge-levels.md %}), and 3\) ExCL staff has sufficient resources in terms of hardware and staff to satisfy the researcher’s request.
