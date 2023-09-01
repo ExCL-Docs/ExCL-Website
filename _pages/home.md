@@ -17,6 +17,8 @@ header:
       url: "/about/"
     - label: "Documentation"
       url: "https://docs.excl.ornl.gov"
+    - label: "ExCL Systems"
+      url: "https://docs.excl.ornl.gov/system-overview"
 ---
 
 # Welcome
