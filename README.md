@@ -1,6 +1,6 @@
 # ExCL's Main Website
 
-This repository contains the source for a Jekyll powered website for ExCL hosted at `Link Here`. If you have any questions about the source please contact Aaron Young at [youngar@ornl.gov](mailto:youngar@ornl.gov).
+This repository contains the source for a Jekyll powered website for ExCL hosted at <https://excl-docs.github.io/ExCL-Website/>. If you have any questions about the source please contact Aaron Young at [youngar@ornl.gov](mailto:youngar@ornl.gov).
 
 ## Prerequisites
 
