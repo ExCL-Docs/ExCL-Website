@@ -2,7 +2,7 @@
 title: Title
 toc: true
 toc_sticky: false
-categories: [Life]
+categories: [ExCL]
 tags: [Template]
 header:
     image: /assets/images/template-header.png

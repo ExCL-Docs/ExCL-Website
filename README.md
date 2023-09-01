@@ -17,6 +17,10 @@ included, and with live reloading, use the command:
 
     bundle exec jekyll serve --drafts --livereload
 
+    or 
+
+    ./serve.sh
+
 ## Deploying the website
 
 In order to deploy the website, use the helper script `deploy.sh`.

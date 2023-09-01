@@ -24,17 +24,17 @@ To apply for access to ExCL Systems, you must follow these steps:
 2. Otherwise, you must submit a proposal for a project:
     1. ExCL has a quarterly review of proposals that allows new projects to start at the beginning of the following quarter (Jan 1, Apr 1, Jul 1, Oct 1). See the request for proposals for more details.
     2. ExCL also accepts discretionary proposals throughout the year, but these allocations are smaller and short-term.
-    The project application form is https://bit.ly/excl-project-application-form. 
+    The project application form is <https://bit.ly/excl-project-application-form>. 
     3. Upon approval of your project, you will be emailed a project-id, and you can continue to Step B.
 
 ### Step B – Applying for an ExCL user account
 
 Users involved with an approved and activated ExCL project can apply for a user account associated with the project. There are several steps in receiving a user account:
 
-1. Review the [ExCL User Agreement and Policy](https://excl.ornl.gov/accessing-excl/excl-user-agreement/).
+1. Review the [ExCL User Agreement and Policy]({% link _pages/excl-user-agreement.md %}).
 2. Create an ORNL Account ID, if you do not already have one
     - If you are an ORNL researcher (staff or existing external user) and have a UCAMS or XCAMS ID, continue to Step 3.
-    - Otherwise, create an XCAMS ID at https://xcams.ornl.gov/xcams/
+    - Otherwise, create an XCAMS ID at <https://xcams.ornl.gov/xcams/>
 3. Apply for an account using the [Account Request Form](https://bit.ly/excl-user-account-creation-form).
 
 ### Step C – Reviews

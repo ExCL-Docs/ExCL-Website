@@ -6,7 +6,7 @@ pagination:
   title: " "
   per_page: 5
 permalink: /
-excerpt: Pathfinding the future of computing.
+excerpt: Pathfinding the future of computing
 header:
   overlay_color: "#ffffff"
   overlay_filter: "0.3"
@@ -35,4 +35,4 @@ ExCL has been designed and is managed by researchers at the [Advanced Computing 
 
 All user documentation is available online [here](https://docs.excl.ornl.gov/).  User content creation is encouraged.
 
-Contact us for more information about the system and if you are interested in becoming a user or sign up for our periodic newsletter here…
+[Contact us](mailto:excl-help@ornl.gov) for more information about the system and if you are interested in becoming a user or to sign up for our periodic newsletter.
