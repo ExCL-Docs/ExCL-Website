@@ -10,10 +10,4 @@ var store = [{
         "tags": ["User Meetings"],
         "url": "/ExCL-Website/excl/august-meeting-2023/",
         "teaser": "/ExCL-Website/assets/images/august-meeting-2023-splash.png"
-      },{
-        "title": "Title",
-        "excerpt":" ","categories": ["ExCL"],
-        "tags": ["Template"],
-        "url": "/ExCL-Website/excl/template/",
-        "teaser": "/ExCL-Website/assets/images/template-teaser.png"
       }]
