@@ -1,1 +1,1 @@
-Sitemap: https://excl-docs.github.io/ExCL-Website/sitemap.xml
+Sitemap: http://localhost:4000/ExCL-Website/sitemap.xml
