@@ -21,7 +21,7 @@ name                     : "ExCL"
 description: >- # this means to ignore newlines until "baseurl:"
   Website for ExCL.
 url                      : "https://www.excl.ornl.gov" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/ExCL-Website" # the subpath of your site, e.g. "/blog"
 repository               : "ExCL-Docs/ExCL-Website" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/ExCL-Logo-h-green.png"
