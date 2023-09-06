@@ -1,5 +1,5 @@
 ---
-title: "ORNL Experimental Computing Laboratory<br>(ExCL)"
+title: "ORNL Experimental Computing Laboratory"
 layout: home
 pagination:
   enabled: true
