@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://www.excl.ornl.gov/excl/march-meeting-2023/</loc>
+<lastmod>2023-03-23T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>https://www.excl.ornl.gov/excl/july-meeting-2023/</loc>
 <lastmod>2023-07-27T00:00:00-04:00</lastmod>
 </url>
@@ -37,6 +41,10 @@
 </url>
 <url>
 <loc>https://www.excl.ornl.gov/news/</loc>
+</url>
+<url>
+<loc>https://www.excl.ornl.gov/assets/presentations/2023-03-march-excl-meeting.pdf</loc>
+<lastmod>2023-09-08T17:56:03-04:00</lastmod>
 </url>
 <url>
 <loc>https://www.excl.ornl.gov/assets/presentations/2023-07-july-excl-meeting.pdf</loc>
