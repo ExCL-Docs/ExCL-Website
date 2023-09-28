@@ -1,7 +1,7 @@
 ---
 layout: single
 title: ExCL Privilege Levels
-permalink: /excl-privilege-levels/
+permalink: /accessing-excl/excl-privilege-levels
 toc: false
 ---
 
@@ -24,3 +24,4 @@ These levels can be summarized in the follow matrix:
 | 4     | OS                   | Y                      | Y                         | Y                                         | Y                        |                                                           |                      |
 | 5     | Firmware             | Y                      | Y                         | Y                                         | Y                        | Y                                                         |                      |
 | 6     | Hardware             | Y                      | Y                         | Y                                         | Y                        | Y                                                         | Y                    |
+
