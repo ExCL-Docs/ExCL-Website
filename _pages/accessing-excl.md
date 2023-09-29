@@ -24,7 +24,7 @@ To apply for access to ExCL Systems, you must follow these steps:
 2. Otherwise, you must submit a proposal for a project:
     1. ExCL has a quarterly review of proposals that allows new projects to start at the beginning of the following quarter (Jan 1, Apr 1, Jul 1, Oct 1). See the request for proposals for more details.
     2. ExCL also accepts discretionary proposals throughout the year, but these allocations are smaller and short-term.
-    The project application form is [{% link _pages/project-application-form.md %}]({% link _pages/project-application-form.md %}). 
+    The project application form is available at [{{ '/project-application-form' | absolute_url }}]({% link _pages/project-application-form.md %}). 
     3. Upon approval of your project, you will be emailed a project-id, and you can continue to Step B.
 
 ### Step B – Applying for an ExCL user account
