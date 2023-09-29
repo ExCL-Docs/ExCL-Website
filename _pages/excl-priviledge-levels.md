@@ -2,6 +2,7 @@
 layout: single
 title: ExCL Privilege Levels
 permalink: /accessing-excl/excl-privilege-levels
+redirect_from: /excl-privilege-levels
 toc: false
 ---
 

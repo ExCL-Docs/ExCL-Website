@@ -2,6 +2,7 @@
 layout: single
 title:
 permalink: /accessing-excl/excl-user-agreement
+redirect_from: /excl-user-agreement
 toc: false
 ---
 
