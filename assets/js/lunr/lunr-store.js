@@ -34,4 +34,10 @@ var store = [{
         "tags": ["User Meetings"],
         "url": "/excl/april-meeting-2024/",
         "teaser": "/assets/images/april-meeting-2024-splash.png"
+      },{
+        "title": "ExCL June Meeting 2024",
+        "excerpt":"June 2024 ExCL meeting slides.   It appears that you don't have a PDF plugin for this browser. You can click here to download the PDF file.   ","categories": ["ExCL"],
+        "tags": ["User Meetings"],
+        "url": "/excl/june-meeting-2024/",
+        "teaser": "/assets/images/june-meeting-2024-splash.png"
       }]
