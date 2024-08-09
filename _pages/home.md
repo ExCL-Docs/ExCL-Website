@@ -53,9 +53,9 @@ All user documentation is available online [here](https://docs.excl.ornl.gov/). 
 
 # ExCL
 
-## Systems
+## Systems <!-- markmap: foldAll -->
 
-### [Zenith2](https://docs.excl.ornl.gov/system-overview/zenith#zenith-2)
+- [Zenith2](https://docs.excl.ornl.gov/system-overview/zenith#zenith-2)
 
 ## Services
 
