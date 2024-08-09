@@ -38,3 +38,30 @@ ExCL has been designed and is managed by researchers at the [Advanced Computing 
 All user documentation is available online [here](https://docs.excl.ornl.gov/).  User content creation is encouraged.
 
 [Contact us](mailto:excl-help@ornl.gov) for more information about the system and if you are interested in becoming a user or to sign up for our periodic newsletter.
+
+<html>
+<body>
+
+<style>
+.markmap > svg {
+  width: 100%;
+  height: 300px;
+}
+</style>
+
+<div class="markmap">
+
+# ExCL
+
+## Systems
+
+### [Zenith2](https://docs.excl.ornl.gov/system-overview/zenith#zenith-2)
+
+## Services
+
+## Quickstart
+
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader"></script>
+</html>
