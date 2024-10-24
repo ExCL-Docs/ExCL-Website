@@ -4,6 +4,7 @@ toc: false
 toc_sticky: false
 categories: [ExCL]
 tags: [User Meetings]
+excerpt_separator: <!--more-->
 header:
     image: /assets/images/circuit.jpg
     teaser: /assets/images/october-meeting-2024-splash.jpg
@@ -11,9 +12,13 @@ header:
 
 October 2024 ExCL meeting slides.
 
+<!--more-->
+
 <object data='{% link /assets/presentations/2024-10-october-excl-meeting.pdf %}' type='application/pdf' width='560' height='700'><p>It appears that you don't have a PDF plugin for this browser. You can <a href='{% link /assets/presentations/2024-10-october-excl-meeting.pdf %}'>click here to download the PDF file.</a></p></object>
 
-Below is largely LLM-generated summary of the meeting based on the presentation slides.
+----
+
+Below is a LLM-generated summary of the meeting based on the presentation slides.
 
 ----
 
