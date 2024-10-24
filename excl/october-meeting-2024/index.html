@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>ExCL April Meeting 2024 -</title>
-<meta name="description" content="April 2024 ExCL meeting slides.">
+<!-- begin _includes/seo.html --><title>ExCL October Meeting 2024 -</title>
+<meta name="description" content="October 2024 ExCL meeting slides.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="">
-<meta property="og:title" content="ExCL April Meeting 2024">
-<meta property="og:url" content="https://www.excl.ornl.gov/excl/april-meeting-2024/">
+<meta property="og:title" content="ExCL October Meeting 2024">
+<meta property="og:url" content="https://www.excl.ornl.gov/excl/october-meeting-2024/">
 
 
-  <meta property="og:description" content="April 2024 ExCL meeting slides.">
+  <meta property="og:description" content="October 2024 ExCL meeting slides.">
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-  <meta property="article:published_time" content="2024-04-25T00:00:00-04:00">
+  <meta property="article:published_time" content="2024-10-24T00:00:00-04:00">
 
 
 
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="https://www.excl.ornl.gov/excl/april-meeting-2024/">
+<link rel="canonical" href="https://www.excl.ornl.gov/excl/october-meeting-2024/">
 
 
 
@@ -173,7 +173,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/assets/images/circuit.jpg" alt="ExCL April Meeting 2024" class="page__hero-image">
+    <img src="/assets/images/circuit.jpg" alt="ExCL October Meeting 2024" class="page__hero-image">
   
   
 </div>
@@ -275,15 +275,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="ExCL April Meeting 2024">
-    <meta itemprop="description" content="April 2024 ExCL meeting slides.">
-    <meta itemprop="datePublished" content="2024-04-25T00:00:00-04:00">
+    <meta itemprop="headline" content="ExCL October Meeting 2024">
+    <meta itemprop="description" content="October 2024 ExCL meeting slides.">
+    <meta itemprop="datePublished" content="2024-10-24T00:00:00-04:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">ExCL April Meeting 2024
+          <h1 id="page-title" class="page__title" itemprop="headline">ExCL October Meeting 2024
 </h1>
           
 
@@ -299,7 +299,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          2 minute read
         
       </span>
     
@@ -311,10 +311,86 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>April 2024 ExCL meeting slides.</p>
+        <p>October 2024 ExCL meeting slides.</p>
 
-<object data="/assets/presentations/2024-04-april-excl-meeting.pdf" type="application/pdf" width="560" height="700"><p>It appears that you don't have a PDF plugin for this browser. You can <a href="/assets/presentations/2024-04-april-excl-meeting.pdf">click here to download the PDF file.</a></p></object>
+<!--more-->
 
+<object data="/assets/presentations/2024-10-october-excl-meeting.pdf" type="application/pdf" width="560" height="700"><p>It appears that you don't have a PDF plugin for this browser. You can <a href="/assets/presentations/2024-10-october-excl-meeting.pdf">click here to download the PDF file.</a></p></object>
+
+<hr />
+
+<p>Below is a LLM-generated summary of the meeting based on the presentation slides.</p>
+
+<hr />
+
+<h2 id="october-2024-monthly-meeting-highlights-experimental-computing-laboratory">October 2024 Monthly Meeting Highlights: Experimental Computing Laboratory</h2>
+
+<p>Welcome to our October 2024 update! In this post, we’ll cover the key topics from the recent Experimental Computing Laboratory meeting. From system updates to deployment plans, here’s everything you need to know about our recent strides in computing infrastructure and technology.</p>
+
+<h3 id="system-and-infrastructure-updates"><strong>System and Infrastructure Updates</strong></h3>
+
+<ol>
+  <li><strong>Ubuntu 24.04 Rollout</strong>: The new Ubuntu 24.04 has been announced but is pending approval for ORNL use. Until then, we are holding off on installations or upgrades due to stability concerns.</li>
+  <li><strong>Migration Progress</strong>: Nearly all user-facing systems have been transitioned to Ubuntu 22.04. We have one remaining CentOS 7 system and a new Rocky 9 system built for testing in that environment.</li>
+  <li><strong>Control Groups Version</strong>: All rebuilt systems now support cgroups v2. Users needing v1 should contact the ExCL staff for configuration help. This change was done as part of the upgraded slurm deployment.</li>
+</ol>
+
+<h3 id="three-month-outlook"><strong>Three-Month Outlook</strong></h3>
+
+<ul>
+  <li><strong>Documentation Improvements</strong>: Continuation of updates to system use and assignment documentation on our <a href="https://docs.excl.ornl.gov">documentation site</a>.</li>
+  <li><strong>UID &amp; GID Stabilization</strong>: We’re stabilizing UID &amp; GID assignments across ExCL to facilitate service deployment and integration.</li>
+  <li><strong>Deployment of Mi300a Systems</strong>: A new Mi300a system with integrated GPUs is awaiting deployment in the 5100 data center to support a heterogeneous accelerator environment.</li>
+</ul>
+
+<h3 id="mi300a-specifications"><strong>Mi300a Specifications</strong></h3>
+
+<p>The Mi300a system features:</p>
+<ul>
+  <li>4x Mi300A system APUs (integrated CPUs and GPUs)</li>
+  <li>128 GB HBM3 memory per APU</li>
+  <li>Infinity Fabric Links and PCIe 5.0x16 slots for peripherals</li>
+  <li><a href="https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html">More about Mi300a</a></li>
+</ul>
+
+<h2 id="ssh-keys-for-authentication">SSH Keys for Authentication</h2>
+
+<p>Using SSH keys is now the preferred method for user authentication and connecting with private Git repositories. We recommend using SSH keys with a passphrase for added security. This approach helps avoid potential account lockouts caused by automatic login tools, which can exceed retry limits when using cached passwords.</p>
+
+<h3 id="proposed-host-layout-changes"><strong>Proposed Host Layout Changes</strong></h3>
+
+<ul>
+  <li><strong>Milan0 GPU Reconfiguration</strong>: A proposal to reconfigure Milan0 with two AMD M100 GPUs and deploy additional accelerators to create a more diverse and efficient computing environment.</li>
+</ul>
+
+<h2 id="iris-setup-scripts">IRIS Setup Scripts</h2>
+
+<p>We now have setup scripts available for configuring ExCL systems for IRIS accelerator use. These scripts can be found at <code class="language-plaintext highlighter-rouge">/auto/software/iris</code> and used by sourcing <code class="language-plaintext highlighter-rouge">setup_system.source</code>. To request changes, users can fork the repository and create a merge request, which will be reviewed and then deployed.</p>
+
+<h3 id="host-quarantine-and-compliance"><strong>Host Quarantine and Compliance</strong></h3>
+
+<ul>
+  <li><strong>Compliance Updates</strong>: Updates on ITSD compliance enforcement and the status of ExCL systems under the DOE-mandated host quarantine policy.</li>
+</ul>
+
+<h3 id="container-registry-transition"><strong>Container Registry Transition</strong></h3>
+
+<ul>
+  <li><strong>From GitLab to Harbor</strong>: The container registry has been moved from GitLab to Harbor, enhancing our capabilities in managing containers more effectively. Training and documentation for Harbor are available online.</li>
+</ul>
+
+<h2 id="discussions-and-questions">Discussions and Questions</h2>
+
+<ul>
+  <li><strong>IRIS Container</strong>: There were discussions regarding the feasibility of using Harbor for IRIS containers. Though IRIS does not currently have a container, it is feasible for future use.</li>
+  <li><strong>HiFive in ExCL</strong>: Ongoing discussions about integrating HiFive into our infrastructure, pending approval.</li>
+</ul>
+
+<hr />
+
+<p>We hope this summary provides a helpful overview of our October meeting. For any further questions or comments, feel free to reach out to the ExCL team. Stay tuned for our monthly newsletter and future updates!</p>
+
+<p><em>Keep exploring, keep computing!</em></p>
 
         
       </section>
@@ -356,7 +432,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-04-25T00:00:00-04:00">April 25, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-10-24T00:00:00-04:00">October 24, 2024</time></p>
 
 
       </footer>
@@ -364,23 +440,22 @@
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=ExCL+April+Meeting+2024%20https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Fapril-meeting-2024%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=ExCL+October+Meeting+2024%20https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Foctober-meeting-2024%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Fapril-meeting-2024%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Foctober-meeting-2024%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Fapril-meeting-2024%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Foctober-meeting-2024%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/excl/january-meeting-2024/" class="pagination--pager" title="ExCL January Meeting 2024
+      <a href="/excl/august-meeting-2024/" class="pagination--pager" title="ExCL August Meeting 2024
 ">Previous</a>
     
     
-      <a href="/excl/june-meeting-2024/" class="pagination--pager" title="ExCL June Meeting 2024
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -394,51 +469,6 @@
     <div class="page__related">
       <h4 class="page__related-title">You May Also Enjoy</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/october-meeting-2024-splash.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/excl/october-meeting-2024/" rel="permalink">ExCL October Meeting 2024
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">October 2024 ExCL meeting slides.
-
-</p>
-  </article>
-</div>
-
         
           
 
@@ -567,6 +597,50 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">June 2024 ExCL meeting slides.
+</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/april-meeting-2024-splash.png" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/excl/april-meeting-2024/" rel="permalink">ExCL April Meeting 2024
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">April 2024 ExCL meeting slides.
 </p>
   </article>
 </div>
