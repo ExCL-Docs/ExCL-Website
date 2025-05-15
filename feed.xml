@@ -1,8 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2025-04-17T14:14:52-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL April Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/april-meeting-2025/" rel="alternate" type="text/html" title="ExCL April Meeting 2025" /><published>2025-04-17T00:00:00-04:00</published><updated>2025-04-17T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/april-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/april-meeting-2025/">&lt;p&gt;April 2025 ExCL meeting slides.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2025-05-15T13:32:30-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL May Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/may-meeting-2025/" rel="alternate" type="text/html" title="ExCL May Meeting 2025" /><published>2025-05-15T00:00:00-04:00</published><updated>2025-05-15T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/may-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/may-meeting-2025/">&lt;p&gt;May 2025 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
-&lt;object data=&quot;/assets/presentations/2025-04-april-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-04-april-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/presentations/2025-05-may-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-05-may-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below is a LLM-generated summary of the meeting based on the presentation slides.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;excl-monthly-meeting-highlights--may-2025&quot;&gt;ExCL Monthly Meeting Highlights — May 2025&lt;/h1&gt;
+
+&lt;p&gt;The Experimental Computing Laboratory (ExCL) at Oak Ridge National Laboratory held its monthly meeting on &lt;strong&gt;May 15, 2025&lt;/strong&gt;, offering a variety of updates on system infrastructure, software improvements, and the official deployment of the powerful &lt;strong&gt;Mi300a&lt;/strong&gt; system. Here are the key takeaways from this month’s meeting.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-infrastructure--system-status&quot;&gt;🖥️ Infrastructure &amp;amp; System Status&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news&lt;/code&gt; Shell Command&lt;/strong&gt;: A new command-line utility &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news&lt;/code&gt; is now available to keep users informed of system status changes. The login banner will notify users of unread items. Eventually, this will integrate with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news@excl.groups.io&lt;/code&gt; mailing list.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Mi300a (“Faraday”)&lt;/strong&gt;: Officially deployed and ready for use.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;U280 FPGA&lt;/strong&gt;: Deployed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;milan3&lt;/code&gt;, with updated SLURM helper functions and environment setup.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;ThinLinc&lt;/strong&gt;: Updated to version &lt;strong&gt;4.18&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Account Automation&lt;/strong&gt;: Improved reporting and automation reduce the burden of manual account management.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;: Gateway machines will now &lt;strong&gt;auto-update and reboot weekly&lt;/strong&gt; to improve vulnerability management.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;TinyPilot Update&lt;/strong&gt;: New run script menu enables &lt;strong&gt;remote system resets&lt;/strong&gt; via REISUB.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Siemens Remix and Licensing&lt;/strong&gt;: Deployed with no changes to user selections.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-spotlight-mi300a-system-faraday&quot;&gt;⚡ Spotlight: Mi300a System (“Faraday”)&lt;/h2&gt;
+
+&lt;h3 id=&quot;what-is-it&quot;&gt;What Is It?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Supermicro &lt;strong&gt;AS-4145GH-TNMR&lt;/strong&gt; 4U air-cooled server.&lt;/li&gt;
+  &lt;li&gt;Contains &lt;strong&gt;4 APU nodes&lt;/strong&gt;, each with:
+    &lt;ul&gt;
+      &lt;li&gt;912 CDNA3 GPU units&lt;/li&gt;
+      &lt;li&gt;96 Zen 4 CPU cores&lt;/li&gt;
+      &lt;li&gt;128 GB HBM3 (for a total of 512 GB)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Ubuntu 24.04 LTS + ROCm 6.4.0&lt;/li&gt;
+  &lt;li&gt;Specialized riser/backplane needed for hardware expansion&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;why-its-interesting&quot;&gt;Why It’s Interesting&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;High-capability AMD GPUs&lt;/strong&gt; – ideal for AI and HPC workloads&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Infinity Cache &amp;amp; Interconnect&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Unified Memory Access&lt;/strong&gt; – significant for memory hierarchy research&lt;/li&gt;
+  &lt;li&gt;Fast performance – e.g., &lt;strong&gt;LLVM built in 5 minutes&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;how-to-access&quot;&gt;How to Access&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Log in via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;login.excl.ornl.gov&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Hostname: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;faraday&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Load ROCm module: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;module load rocmmod&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Test setup with &lt;a href=&quot;https://github.com/jungwonkim/amd-toy&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd-toy&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Contact &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;help@excl.ornl.gov&lt;/code&gt; if render group access is missing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;documentation-links&quot;&gt;Documentation Links&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.excl.ornl.gov/system-overview/faraday&quot;&gt;ExCL Faraday User Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.supermicro.com/en/accelerators/amd&quot;&gt;Supermicro AMD Accelerator Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.supermicro.com/datasheet/datasheet_H13_QuadAPU.pdf&quot;&gt;Faraday Datasheet (PDF)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.supermicro.com/manuals/superserver/4U/MNL-2754.pdf&quot;&gt;Supermicro Hardware Manual (PDF)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-power-monitoring&quot;&gt;🔋 Power Monitoring&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;CheckMK Integration&lt;/strong&gt; for Mi300a power tracking is in progress.&lt;/li&gt;
+  &lt;li&gt;Documentation for power configuration will follow soon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-final-notes&quot;&gt;📣 Final Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Questions, suggestions, and community discussions are welcome.&lt;/li&gt;
+  &lt;li&gt;Stay informed through the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news&lt;/code&gt; shell command and the &lt;a href=&quot;mailto:news@excl.groups.io&quot;&gt;ExCL mailing list&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">May 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL April Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/april-meeting-2025/" rel="alternate" type="text/html" title="ExCL April Meeting 2025" /><published>2025-04-17T00:00:00-04:00</published><updated>2025-04-17T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/april-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/april-meeting-2025/">&lt;p&gt;April 2025 ExCL meeting slides.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;object data=&quot;/assets/presentations/2025-04-april-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-04-april-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
 
 &lt;hr /&gt;
 
@@ -91,7 +201,7 @@
 
 &lt;!--more--&gt;
 
-&lt;object data=&quot;/assets/presentations/2025-03-march-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-03-march-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/presentations/2025-03-march-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-03-march-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
 
 &lt;hr /&gt;
 
@@ -179,7 +289,7 @@
 
 &lt;p&gt;Slides for the entire BOF are available at &lt;a href=&quot;https://caatb.github.io/aatb-bofs/&quot;&gt;https://caatb.github.io/aatb-bofs/&lt;/a&gt; with ExCL’s slides shown below.&lt;/p&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-11-sc24-excl-slides.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-11-sc24-excl-slides.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/presentations/2024-11-sc24-excl-slides.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-11-sc24-excl-slides.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
 
 &lt;h2 id=&quot;about-the-session&quot;&gt;About the Session&lt;/h2&gt;
 
@@ -211,7 +321,7 @@ Testbeds are critical for evaluating the readiness of novel architectures as we 
 
 &lt;!--more--&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-10-october-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-10-october-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+&lt;object data=&quot;/assets/presentations/2024-10-october-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-10-october-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
 
 &lt;hr /&gt;
 
@@ -288,14 +398,12 @@ Testbeds are critical for evaluating the readiness of novel architectures as we 
 
 &lt;p&gt;&lt;em&gt;Keep exploring, keep computing!&lt;/em&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL August Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/august-meeting-2024/" rel="alternate" type="text/html" title="ExCL August Meeting 2024" /><published>2024-08-22T00:00:00-04:00</published><updated>2024-08-22T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/august-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/august-meeting-2024/">&lt;p&gt;August 2024 ExCL meeting slides.&lt;/p&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">August 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL July Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/july-meeting-2024/" rel="alternate" type="text/html" title="ExCL July Meeting 2024" /><published>2024-07-25T00:00:00-04:00</published><updated>2024-07-25T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/july-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/july-meeting-2024/">&lt;p&gt;July 2024 ExCL meeting slides.&lt;/p&gt;
+&lt;object data=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">August 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL July Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/july-meeting-2024/" rel="alternate" type="text/html" title="ExCL July Meeting 2024" /><published>2024-07-25T00:00:00-04:00</published><updated>2024-07-25T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/july-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/july-meeting-2024/">&lt;p&gt;July 2024 ExCL meeting slides.&lt;/p&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL June Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/june-meeting-2024/" rel="alternate" type="text/html" title="ExCL June Meeting 2024" /><published>2024-06-27T00:00:00-04:00</published><updated>2024-06-27T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/june-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/june-meeting-2024/">&lt;p&gt;June 2024 ExCL meeting slides.&lt;/p&gt;
+&lt;object data=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL June Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/june-meeting-2024/" rel="alternate" type="text/html" title="ExCL June Meeting 2024" /><published>2024-06-27T00:00:00-04:00</published><updated>2024-06-27T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/june-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/june-meeting-2024/">&lt;p&gt;June 2024 ExCL meeting slides.&lt;/p&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-06-june-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-06-june-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">June 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL April Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/april-meeting-2024/" rel="alternate" type="text/html" title="ExCL April Meeting 2024" /><published>2024-04-25T00:00:00-04:00</published><updated>2024-04-25T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/april-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/april-meeting-2024/">&lt;p&gt;April 2024 ExCL meeting slides.&lt;/p&gt;
+&lt;object data=&quot;/assets/presentations/2024-06-june-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-06-june-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">June 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL April Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/april-meeting-2024/" rel="alternate" type="text/html" title="ExCL April Meeting 2024" /><published>2024-04-25T00:00:00-04:00</published><updated>2024-04-25T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/april-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/april-meeting-2024/">&lt;p&gt;April 2024 ExCL meeting slides.&lt;/p&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-04-april-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-04-april-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">April 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL January Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/january-meeting-2024/" rel="alternate" type="text/html" title="ExCL January Meeting 2024" /><published>2024-01-25T00:00:00-05:00</published><updated>2024-01-25T00:00:00-05:00</updated><id>https://www.excl.ornl.gov/excl/january-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/january-meeting-2024/">&lt;p&gt;January 2024 ExCL meeting slides.&lt;/p&gt;
+&lt;object data=&quot;/assets/presentations/2024-04-april-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-04-april-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">April 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL January Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/january-meeting-2024/" rel="alternate" type="text/html" title="ExCL January Meeting 2024" /><published>2024-01-25T00:00:00-05:00</published><updated>2024-01-25T00:00:00-05:00</updated><id>https://www.excl.ornl.gov/excl/january-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/january-meeting-2024/">&lt;p&gt;January 2024 ExCL meeting slides.&lt;/p&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-01-january-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-01-january-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">January 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL September Meeting 2023</title><link href="https://www.excl.ornl.gov/excl/september-meeting-2023/" rel="alternate" type="text/html" title="ExCL September Meeting 2023" /><published>2023-09-28T00:00:00-04:00</published><updated>2023-09-28T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/september-meeting-2023</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/september-meeting-2023/">&lt;p&gt;September 2023 ExCL meeting slides.&lt;/p&gt;
-
-&lt;object data=&quot;/assets/presentations/2023-09-september-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don't have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2023-09-september-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">September 2023 ExCL meeting slides.</summary></entry></feed>
+&lt;object data=&quot;/assets/presentations/2024-01-january-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-01-january-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">January 2024 ExCL meeting slides.</summary></entry></feed>

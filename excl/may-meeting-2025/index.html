@@ -9,19 +9,19 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>ExCL October Meeting 2024 -</title>
-<meta name="description" content="October 2024 ExCL meeting slides.">
+<!-- begin _includes/seo.html --><title>ExCL May Meeting 2025 -</title>
+<meta name="description" content="May 2025 ExCL meeting slides.">
 
 
 
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="">
-<meta property="og:title" content="ExCL October Meeting 2024">
-<meta property="og:url" content="https://www.excl.ornl.gov/excl/october-meeting-2024/">
+<meta property="og:title" content="ExCL May Meeting 2025">
+<meta property="og:url" content="https://www.excl.ornl.gov/excl/may-meeting-2025/">
 
 
-  <meta property="og:description" content="October 2024 ExCL meeting slides.">
+  <meta property="og:description" content="May 2025 ExCL meeting slides.">
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-  <meta property="article:published_time" content="2024-10-24T00:00:00-04:00">
+  <meta property="article:published_time" content="2025-05-15T00:00:00-04:00">
 
 
 
@@ -42,7 +42,7 @@
   
 
 
-<link rel="canonical" href="https://www.excl.ornl.gov/excl/october-meeting-2024/">
+<link rel="canonical" href="https://www.excl.ornl.gov/excl/may-meeting-2025/">
 
 
 
@@ -173,7 +173,7 @@
   style=" background-image: url('');"
 >
   
-    <img src="/assets/images/circuit.jpg" alt="ExCL October Meeting 2024" class="page__hero-image">
+    <img src="/assets/images/circuit.jpg" alt="ExCL May Meeting 2025" class="page__hero-image">
   
   
 </div>
@@ -275,15 +275,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="ExCL October Meeting 2024">
-    <meta itemprop="description" content="October 2024 ExCL meeting slides.">
-    <meta itemprop="datePublished" content="2024-10-24T00:00:00-04:00">
+    <meta itemprop="headline" content="ExCL May Meeting 2025">
+    <meta itemprop="description" content="May 2025 ExCL meeting slides.">
+    <meta itemprop="datePublished" content="2025-05-15T00:00:00-04:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">ExCL October Meeting 2024
+          <h1 id="page-title" class="page__title" itemprop="headline">ExCL May Meeting 2025
 </h1>
           
 
@@ -311,11 +311,11 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>October 2024 ExCL meeting slides.</p>
+        <p>May 2025 ExCL meeting slides.</p>
 
 <!--more-->
 
-<object data="/assets/presentations/2024-10-october-excl-meeting.pdf" type="application/pdf" width="560" height="700"><p>It appears that you don't have a PDF plugin for this browser. You can <a href="/assets/presentations/2024-10-october-excl-meeting.pdf">click here to download the PDF file.</a></p></object>
+<object data="/assets/presentations/2025-05-may-excl-meeting.pdf" type="application/pdf" width="560" height="700"><p>It appears that you don't have a PDF plugin for this browser. You can <a href="/assets/presentations/2025-05-may-excl-meeting.pdf">click here to download the PDF file.</a></p></object>
 
 <hr />
 
@@ -323,74 +323,105 @@
 
 <hr />
 
-<h2 id="october-2024-monthly-meeting-highlights-experimental-computing-laboratory">October 2024 Monthly Meeting Highlights: Experimental Computing Laboratory</h2>
+<h1 id="excl-monthly-meeting-highlights--may-2025">ExCL Monthly Meeting Highlights — May 2025</h1>
 
-<p>Welcome to our October 2024 update! In this post, we’ll cover the key topics from the recent Experimental Computing Laboratory meeting. From system updates to deployment plans, here’s everything you need to know about our recent strides in computing infrastructure and technology.</p>
+<p>The Experimental Computing Laboratory (ExCL) at Oak Ridge National Laboratory held its monthly meeting on <strong>May 15, 2025</strong>, offering a variety of updates on system infrastructure, software improvements, and the official deployment of the powerful <strong>Mi300a</strong> system. Here are the key takeaways from this month’s meeting.</p>
 
-<h3 id="system-and-infrastructure-updates"><strong>System and Infrastructure Updates</strong></h3>
+<hr />
 
-<ol>
-  <li><strong>Ubuntu 24.04 Rollout</strong>: The new Ubuntu 24.04 has been announced but is pending approval for ORNL use. Until then, we are holding off on installations or upgrades due to stability concerns.</li>
-  <li><strong>Migration Progress</strong>: Nearly all user-facing systems have been transitioned to Ubuntu 22.04. We have one remaining CentOS 7 system and a new Rocky 9 system built for testing in that environment.</li>
-  <li><strong>Control Groups Version</strong>: All rebuilt systems now support cgroups v2. Users needing v1 should contact the ExCL staff for configuration help. This change was done as part of the upgraded slurm deployment.</li>
-</ol>
-
-<h3 id="three-month-outlook"><strong>Three-Month Outlook</strong></h3>
+<h2 id="️-infrastructure--system-status">🖥️ Infrastructure &amp; System Status</h2>
 
 <ul>
-  <li><strong>Documentation Improvements</strong>: Continuation of updates to system use and assignment documentation on our <a href="https://docs.excl.ornl.gov">documentation site</a>.</li>
-  <li><strong>UID &amp; GID Stabilization</strong>: We’re stabilizing UID &amp; GID assignments across ExCL to facilitate service deployment and integration.</li>
-  <li><strong>Deployment of Mi300a Systems</strong>: A new Mi300a system with integrated GPUs is awaiting deployment in the 5100 data center to support a heterogeneous accelerator environment.</li>
-</ul>
-
-<h3 id="mi300a-specifications"><strong>Mi300a Specifications</strong></h3>
-
-<p>The Mi300a system features:</p>
-<ul>
-  <li>4x Mi300A system APUs (integrated CPUs and GPUs)</li>
-  <li>128 GB HBM3 memory per APU</li>
-  <li>Infinity Fabric Links and PCIe 5.0x16 slots for peripherals</li>
-  <li><a href="https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html">More about Mi300a</a></li>
-</ul>
-
-<h2 id="ssh-keys-for-authentication">SSH Keys for Authentication</h2>
-
-<p>Using SSH keys is now the preferred method for user authentication and connecting with private Git repositories. We recommend using SSH keys with a passphrase for added security. This approach helps avoid potential account lockouts caused by automatic login tools, which can exceed retry limits when using cached passwords.</p>
-
-<h3 id="proposed-host-layout-changes"><strong>Proposed Host Layout Changes</strong></h3>
-
-<ul>
-  <li><strong>Milan0 GPU Reconfiguration</strong>: A proposal to reconfigure Milan0 with two AMD M100 GPUs and deploy additional accelerators to create a more diverse and efficient computing environment.</li>
-</ul>
-
-<h2 id="iris-setup-scripts">IRIS Setup Scripts</h2>
-
-<p>We now have setup scripts available for configuring ExCL systems for IRIS accelerator use. These scripts can be found at <code class="language-plaintext highlighter-rouge">/auto/software/iris</code> and used by sourcing <code class="language-plaintext highlighter-rouge">setup_system.source</code>. To request changes, users can fork the repository and create a merge request, which will be reviewed and then deployed.</p>
-
-<h3 id="host-quarantine-and-compliance"><strong>Host Quarantine and Compliance</strong></h3>
-
-<ul>
-  <li><strong>Compliance Updates</strong>: Updates on ITSD compliance enforcement and the status of ExCL systems under the DOE-mandated host quarantine policy.</li>
-</ul>
-
-<h3 id="container-registry-transition"><strong>Container Registry Transition</strong></h3>
-
-<ul>
-  <li><strong>From GitLab to Harbor</strong>: The container registry has been moved from GitLab to Harbor, enhancing our capabilities in managing containers more effectively. Training and documentation for Harbor are available online.</li>
-</ul>
-
-<h2 id="discussions-and-questions">Discussions and Questions</h2>
-
-<ul>
-  <li><strong>IRIS Container</strong>: There were discussions regarding the feasibility of using Harbor for IRIS containers. Though IRIS does not currently have a container, it is feasible for future use.</li>
-  <li><strong>HiFive in ExCL</strong>: Ongoing discussions about integrating HiFive into our infrastructure, pending approval.</li>
+  <li>
+    <p><strong><code class="language-plaintext highlighter-rouge">news</code> Shell Command</strong>: A new command-line utility <code class="language-plaintext highlighter-rouge">news</code> is now available to keep users informed of system status changes. The login banner will notify users of unread items. Eventually, this will integrate with the <code class="language-plaintext highlighter-rouge">news@excl.groups.io</code> mailing list.</p>
+  </li>
+  <li>
+    <p><strong>Mi300a (“Faraday”)</strong>: Officially deployed and ready for use.</p>
+  </li>
+  <li>
+    <p><strong>U280 FPGA</strong>: Deployed to <code class="language-plaintext highlighter-rouge">milan3</code>, with updated SLURM helper functions and environment setup.</p>
+  </li>
+  <li>
+    <p><strong>ThinLinc</strong>: Updated to version <strong>4.18</strong>.</p>
+  </li>
+  <li>
+    <p><strong>Account Automation</strong>: Improved reporting and automation reduce the burden of manual account management.</p>
+  </li>
+  <li>
+    <p><strong>Security</strong>: Gateway machines will now <strong>auto-update and reboot weekly</strong> to improve vulnerability management.</p>
+  </li>
+  <li>
+    <p><strong>TinyPilot Update</strong>: New run script menu enables <strong>remote system resets</strong> via REISUB.</p>
+  </li>
+  <li>
+    <p><strong>Siemens Remix and Licensing</strong>: Deployed with no changes to user selections.</p>
+  </li>
 </ul>
 
 <hr />
 
-<p>We hope this summary provides a helpful overview of our October meeting. For any further questions or comments, feel free to reach out to the ExCL team. Stay tuned for our monthly newsletter and future updates!</p>
+<h2 id="-spotlight-mi300a-system-faraday">⚡ Spotlight: Mi300a System (“Faraday”)</h2>
 
-<p><em>Keep exploring, keep computing!</em></p>
+<h3 id="what-is-it">What Is It?</h3>
+<ul>
+  <li>Supermicro <strong>AS-4145GH-TNMR</strong> 4U air-cooled server.</li>
+  <li>Contains <strong>4 APU nodes</strong>, each with:
+    <ul>
+      <li>912 CDNA3 GPU units</li>
+      <li>96 Zen 4 CPU cores</li>
+      <li>128 GB HBM3 (for a total of 512 GB)</li>
+    </ul>
+  </li>
+  <li>Ubuntu 24.04 LTS + ROCm 6.4.0</li>
+  <li>Specialized riser/backplane needed for hardware expansion</li>
+</ul>
+
+<h3 id="why-its-interesting">Why It’s Interesting</h3>
+<ul>
+  <li><strong>High-capability AMD GPUs</strong> – ideal for AI and HPC workloads</li>
+  <li><strong>Infinity Cache &amp; Interconnect</strong></li>
+  <li><strong>Unified Memory Access</strong> – significant for memory hierarchy research</li>
+  <li>Fast performance – e.g., <strong>LLVM built in 5 minutes</strong></li>
+</ul>
+
+<h3 id="how-to-access">How to Access</h3>
+<ul>
+  <li>Log in via <code class="language-plaintext highlighter-rouge">login.excl.ornl.gov</code></li>
+  <li>Hostname: <code class="language-plaintext highlighter-rouge">faraday</code></li>
+  <li>Load ROCm module: <code class="language-plaintext highlighter-rouge">module load rocmmod</code></li>
+  <li>Test setup with <a href="https://github.com/jungwonkim/amd-toy"><code class="language-plaintext highlighter-rouge">amd-toy</code></a></li>
+  <li>Contact <code class="language-plaintext highlighter-rouge">help@excl.ornl.gov</code> if render group access is missing</li>
+</ul>
+
+<h3 id="documentation-links">Documentation Links</h3>
+<ul>
+  <li><a href="https://docs.excl.ornl.gov/system-overview/faraday">ExCL Faraday User Docs</a></li>
+  <li><a href="https://www.supermicro.com/en/accelerators/amd">Supermicro AMD Accelerator Systems</a></li>
+  <li><a href="https://www.supermicro.com/datasheet/datasheet_H13_QuadAPU.pdf">Faraday Datasheet (PDF)</a></li>
+  <li><a href="https://www.supermicro.com/manuals/superserver/4U/MNL-2754.pdf">Supermicro Hardware Manual (PDF)</a></li>
+</ul>
+
+<hr />
+
+<h2 id="-power-monitoring">🔋 Power Monitoring</h2>
+
+<ul>
+  <li><strong>CheckMK Integration</strong> for Mi300a power tracking is in progress.</li>
+  <li>Documentation for power configuration will follow soon.</li>
+</ul>
+
+<hr />
+
+<h2 id="-final-notes">📣 Final Notes</h2>
+
+<ul>
+  <li>Questions, suggestions, and community discussions are welcome.</li>
+  <li>Stay informed through the <code class="language-plaintext highlighter-rouge">news</code> shell command and the <a href="mailto:news@excl.groups.io">ExCL mailing list</a>.</li>
+</ul>
+
+<hr />
+
+<p>The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!</p>
 
         
       </section>
@@ -432,7 +463,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-10-24T00:00:00-04:00">October 24, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2025-05-15T00:00:00-04:00">May 15, 2025</time></p>
 
 
       </footer>
@@ -440,23 +471,22 @@
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=ExCL+October+Meeting+2024%20https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Foctober-meeting-2024%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=ExCL+May+Meeting+2025%20https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Fmay-meeting-2025%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Foctober-meeting-2024%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Fmay-meeting-2025%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Foctober-meeting-2024%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.excl.ornl.gov%2Fexcl%2Fmay-meeting-2025%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/excl/august-meeting-2024/" class="pagination--pager" title="ExCL August Meeting 2024
+      <a href="/excl/april-meeting-2025/" class="pagination--pager" title="ExCL April Meeting 2025
 ">Previous</a>
     
     
-      <a href="/excl/sc24/" class="pagination--pager" title="ExCL at SC24: Advancing the Future of HPC Testbeds
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -470,51 +500,6 @@
     <div class="page__related">
       <h4 class="page__related-title">You May Also Enjoy</h4>
       <div class="grid__wrapper">
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-      <div class="archive__item-teaser">
-        <img src="/assets/images/may-meeting-2025-splash.jpg" alt="">
-      </div>
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/excl/may-meeting-2025/" rel="permalink">ExCL May Meeting 2025
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          2 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">May 2025 ExCL meeting slides.
-
-</p>
-  </article>
-</div>
-
         
           
 
@@ -645,6 +630,51 @@
 
 
     <p class="archive__item-excerpt" itemprop="description">We are thrilled to announce that ExCL (Experimental Computing Laboratory) was an active participant at SC24! This year, we contributed to the Birds of a Feat...</p>
+  </article>
+</div>
+
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/october-meeting-2024-splash.jpg" alt="">
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/excl/october-meeting-2024/" rel="permalink">ExCL October Meeting 2024
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">October 2024 ExCL meeting slides.
+
+</p>
   </article>
 </div>
 
