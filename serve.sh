@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec jekyll serve --drafts --livereload
+bundle exec jekyll serve --drafts --livereload --host 0.0.0.0

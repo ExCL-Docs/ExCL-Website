@@ -82,4 +82,10 @@ var store = [{
         "tags": ["User Meetings"],
         "url": "/excl/may-meeting-2025/",
         "teaser": "/assets/images/may-meeting-2025-splash.jpg"
+      },{
+        "title": "ExCL July Meeting 2025",
+        "excerpt":"July 2025 ExCL meeting slides.     It appears that you don't have a PDF plugin for this browser. You can click here to download the PDF file.     Below is a LLM-generated summary of the meeting.     ExCL Monthly Meeting Highlights – July 2025   Welcome to the July highlights from the Experimental Computing Laboratory (ExCL)! This month’s meeting focused on planning for future upgrades, sharing updates on resources, and a recap of the cause of a recent outage.     System Updates   The Equinox system, one of our older GPU platforms, is being phased out due to hardware issues. Projects needing multiple GPUs should reach out so we can ensure resources are available.     Looking Ahead: New Capabilities   We’re exploring exciting new hardware options to expand ExCL’s research capabilities, including:      Next-generation AI and GPU systems   FPGA and accelerator platforms   Infrastructure upgrades to support growth     Community Input   We continue to welcome feedback from our users — especially around system needs, project requirements, and upcoming resource opportunities.  ","categories": ["ExCL"],
+        "tags": ["User Meetings"],
+        "url": "/excl/july-meeting-2025/",
+        "teaser": "/assets/images/2025-07-july-excl-meeting-splash.jpg"
       }]
