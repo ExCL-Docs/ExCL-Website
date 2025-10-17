@@ -171,6 +171,7 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - /tools # ignore /tools
   - deploy.sh
+  - update_all_gems.sh
 keep_files:
   - .git
   - .svn
