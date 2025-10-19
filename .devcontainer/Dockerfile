@@ -8,6 +8,7 @@ RUN apt-get update && \
       build-essential \
       zlib1g-dev libffi-dev libyaml-dev \
       git curl tzdata \
+      imagemagick \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy your corporate root CA(s) into the trusted location
