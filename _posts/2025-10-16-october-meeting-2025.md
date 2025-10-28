@@ -35,7 +35,7 @@ On October 16, 2025, the Experimental Computing Laboratory (ExCL) held its month
 - **AMD Versal VHK158 Evaluation Kit**: FPGA development, currently in a box for user deployment.
 - **AMD Xilinx VCU118 Evaluation Kit**: FPGA development, similar status as the Versal kit.
 - **Apple Studio M3 MAX**: Software development and GitLab runners, not deployed yet.
-- **GeForce RTX 1090 (Nvidia consumer grade)**: Development and analysis of software using GPUs, awaiting deployment.
+- **GeForce RTX 5090 (Nvidia consumer grade)**: Development and analysis of software using GPUs, awaiting deployment.
 - **AMD Radeon RX 9070 XT**: Development and analysis of software using GPUs, requires 775 watts and will be deployed in one of the Milans.
 
 #### Networking and Remote Management
