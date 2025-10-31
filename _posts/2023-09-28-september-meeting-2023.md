@@ -5,7 +5,7 @@ toc_sticky: false
 categories: [ExCL]
 tags: [User Meetings]
 header:
-    image: /assets/images/circuit.jpg
+    image: /assets/images/ExCL-Header-web-no-text.png
     teaser: /assets/images/september-meeting-2023-splash.png
 ---
 

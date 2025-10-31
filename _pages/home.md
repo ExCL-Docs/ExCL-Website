@@ -10,7 +10,7 @@ excerpt: Pathfinding the future of computing
 header:
   overlay_color: "#ffffff"
   overlay_filter: "0.3"
-  overlay_image: /assets/images/circuit.jpg
+  overlay_image: /assets/images/circuit-green.png
   caption: ""
   actions:
     - label: "About ExCL"

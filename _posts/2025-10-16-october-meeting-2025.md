@@ -6,7 +6,7 @@ categories: [ExCL]
 tags: [User Meetings]
 excerpt_separator: <!--more-->
 header:
-    image: /assets/images/circuit.jpg
+    image: /assets/images/ExCL-Header-web-no-text.png
     teaser: /assets/images/2025-10-october-excl-meeting-splash.jpg
 ---
 
