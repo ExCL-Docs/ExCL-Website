@@ -3,31 +3,32 @@ FROM mcr.microsoft.com/devcontainers/base:jammy
 # Install CA tooling + Ruby toolchain + common build deps
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-      ca-certificates \
       ruby-full ruby-dev \
       build-essential \
       zlib1g-dev libffi-dev libyaml-dev \
       git curl tzdata \
       imagemagick \
+      # Certs:
+      ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy your corporate root CA(s) into the trusted location
+# Certs: Copy your corporate root CA(s) into the trusted location
 # (Only .crt files are processed by update-ca-certificates)
 COPY certs/*.crt /usr/local/share/ca-certificates/
 
-# Register the new CA with the system trust store
+# Certs: Register the new CA with the system trust store
 RUN update-ca-certificates
 
-# Install jekyll/bundler system-wide (puts bins on PATH for all users)
-# Also avoid gem docs to speed up builds
-RUN gem install --no-document bundler jekyll
-
-# Make uv honor the OS trust store (and set common CA envs for other tools)
+# Certs: Make uv honor the OS trust store (and set common CA envs for other tools)
 ENV UV_NATIVE_TLS=true \
     SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt \
     REQUESTS_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt \
     CURL_CA_BUNDLE=/etc/ssl/certs/ca-certificates.crt \
     NODE_EXTRA_CA_CERTS=/etc/ssl/certs/ca-certificates.crt
+
+# Install jekyll/bundler system-wide (puts bins on PATH for all users)
+# Also avoid gem docs to speed up builds
+RUN gem install --no-document bundler jekyll
 
 # --- Use a GEM_HOME that exists in the image and is writable by the dev user ---
 # Choose a conventional, version-agnostic path for gems
