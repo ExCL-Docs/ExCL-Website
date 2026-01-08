@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2025-10-31T11:46:16-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL October Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2025/" rel="alternate" type="text/html" title="ExCL October Meeting 2025" /><published>2025-10-16T00:00:00-04:00</published><updated>2025-10-16T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2025/">&lt;p&gt;October 2025 ExCL meeting slides.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-01-08T17:10:43-05:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">Research conducted on ExCL and presented at SC25</title><link href="https://www.excl.ornl.gov/excl/sc25/" rel="alternate" type="text/html" title="Research conducted on ExCL and presented at SC25" /><published>2026-01-08T00:00:00-05:00</published><updated>2026-01-08T00:00:00-05:00</updated><id>https://www.excl.ornl.gov/excl/sc25</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/sc25/">&lt;!--more--&gt;
+
+&lt;h2 id=&quot;-best-paper-recognition-at-waccpd&quot;&gt;🏆 Best Paper Recognition at WACCPD&lt;/h2&gt;
+
+&lt;p&gt;SULI Intern Tatiana Melnichenko (University of Tennessee, Knoxville) was part of the team awarded Best Paper at the Twelfth Workshop on Accelerator Programming and Directives (WACCPD 2025) workshop. She presented the work to a packed room, and highlighted ExCL’s role in enabling the evaluation of Mojo’s vendor-neutral programming capabilities across NVIDIA H100 and AMD MI300A GPUs for science workloads. Tatiana will be returning for a part-time internship in the spring, continuing her contributions with ORNL researchers.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://doi.org/10.1145/3731599.3767573&quot;&gt;Mojo: MLIR-based Performance-Portable HPC Science Kernels on GPUs for the Python Ecosystem&lt;/a&gt;, William Godoy, Tatiana Melnichenko, Pedro Valero-Lara, Wael Elwasif, Philip Fackler, Rafael Ferreira Da Silva, Keita Teranishi, Jeffrey Vetter, &lt;em&gt;SC ‘25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis&lt;/em&gt;, 2025.&lt;/p&gt;
+
+&lt;h2 id=&quot;-acm-undergraduate-research-competition-finalists&quot;&gt;🎓 ACM Undergraduate Research Competition Finalists&lt;/h2&gt;
+
+&lt;p&gt;Tatiana’s &lt;a href=&quot;https://sc25.conference-program.com/presentation/?id=post151&amp;amp;sess=sess529&quot;&gt;poster&lt;/a&gt; was selected as a Top 5 finalist in the ACM Undergraduate Research Competition, underscoring the strength of internship engagement in ExCL-supported projects.&lt;/p&gt;
+
+&lt;h2 id=&quot;-3rd-place-acm-src-poster-award&quot;&gt;🥉 3rd Place ACM SRC Poster Award&lt;/h2&gt;
+
+&lt;p&gt;Matthew Chung, mentored by Narasinga Rao, earned 3rd place in the ACM Undergraduate Research Poster Competition for his &lt;a href=&quot;https://sc25.conference-program.com/presentation/?id=post230&amp;amp;sess=sess529&quot;&gt;poster&lt;/a&gt; on a Heterogeneous Eigen solver using IRIS and conducted on ExCL systems.&lt;/p&gt;
+
+&lt;h2 id=&quot;-sc-best-poster-nomination&quot;&gt;🧠 SC Best Poster Nomination&lt;/h2&gt;
+
+&lt;p&gt;A &lt;a href=&quot;https://sc25.conference-program.com/presentation/?id=post267&amp;amp;sess=sess527&quot;&gt;poster&lt;/a&gt; on Julia with an Intelligent Runtime System, presented by Narasinga Rao, Pedro Valero Lara, William Godoy, Keita Teranishi, and Jeffrey Vetter, was nominated for Best Poster at SC25. The work explored dynamic optimization strategies for heterogeneous systems.&lt;/p&gt;
+
+&lt;h2 id=&quot;-chathpc-and-chatport-papers&quot;&gt;📄 ChatHPC and ChatPort Papers&lt;/h2&gt;
+
+&lt;p&gt;Two papers—ChatHPC and ChatPort—were presented on how AI capabilities can leverage and speed up the HPC software development process. Researchers used ExCL capabilities to fine-tune CodeLlama with libraries that are critical to DOE HPC mission (Kokkos, OpenMP, ADIOS2, IRIS, TAU).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1145/3712285.3759787&quot;&gt;ChatHPC: Building the Foundations for a Productive and Trustworthy AI-Assisted HPC Ecosystem&lt;/a&gt;, Pedro Valero Lara, Aaron Young, Jeffrey S. Vetter, Zheming Jin, Swaroop Pophale, Mohammad Alaul Haque Monil, Keita Teranishi, William F. Godoy, &lt;em&gt;SC ‘25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis&lt;/em&gt;, 2025.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1145/3731599.3767398&quot;&gt;Enhancing ChatPORT with CUDA-to-SYCL Kernel Translation Capability&lt;/a&gt;, Zheming Jin, Swaroop Pophale, Keita Teranishi, &lt;em&gt;SC-W’25: Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis Workshops&lt;/em&gt;, 2025.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-short-talks-at-workshops&quot;&gt;🎤 Short talks at workshops&lt;/h2&gt;
+
+&lt;p&gt;Philip W. Fackler gave a short talk titled &lt;em&gt;Speeding Up Phonon Dynamic Structure Factor Calculations in Phonopy with GPU-Accelerated Computing&lt;/em&gt; as part of the &lt;a href=&quot;https://wordpress.cels.anl.gov/xloop-2025/workshop-schedule/&quot;&gt;XLOOP 2025 workshop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;William Godoy gave a talk titled &lt;em&gt;A first look at Mojo’s MLIR-based Performance Portable GPU Programming for Python Users&lt;/em&gt; at the &lt;a href=&quot;https://hppss.github.io/SC25/schedule.html#a-first-look-at-mojos-mlir-based-performance-portable-gpu-programming-for-python-users&quot;&gt;Python HPPSS workshop&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;-bof-and-tutorials&quot;&gt;📒 BoF and Tutorials&lt;/h2&gt;
+
+&lt;p&gt;Philip W. Fackler and William Godoy presented at the Julia for HPC &lt;a href=&quot;https://sc25.conference-program.com/presentation/?id=bof116&amp;amp;sess=sess480&quot;&gt;BoF&lt;/a&gt; and half-day &lt;a href=&quot;https://sc25.conference-program.com/presentation/?id=tut140&amp;amp;sess=sess268&quot;&gt;Tutorial&lt;/a&gt;. ExCL resources were used for the readiness of the presented software at these events, including CI services for the &lt;a href=&quot;https://github.com/JuliaORNL/JACC.jl&quot;&gt;JACC.jl&lt;/a&gt; performance portable Julia library developed at ORNL.&lt;/p&gt;
+
+&lt;figure class=&quot;third &quot;&gt;
+  
+    
+      &lt;a href=&quot;/assets/images/Tatiana-WACCPD.jpg&quot; title=&quot;Tatiana presented to a full house.&quot;&gt;
+          &lt;img src=&quot;/assets/images/Tatiana-WACCPD-th.jpg&quot; alt=&quot;Tatiana presented to a full house.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/Tatiana-WACCPD3.jpg&quot; title=&quot;Tatiana’s presentation featuring ExCL on the slide.&quot;&gt;
+          &lt;img src=&quot;/assets/images/Tatiana-WACCPD3-th.jpg&quot; alt=&quot;Tatiana’s presentation featuring ExCL on the slide.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/Tatiana-best-paper.jpg&quot; title=&quot;MLIR Best paper award.&quot;&gt;
+          &lt;img src=&quot;/assets/images/Tatiana-best-paper-th.jpg&quot; alt=&quot;MLIR Best paper award.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+    
+      &lt;a href=&quot;/assets/images/chathpc-for-kokkos.jpg&quot; title=&quot;Pedro presenting ChatHPC.&quot;&gt;
+          &lt;img src=&quot;/assets/images/chathpc-for-kokkos.jpg&quot; alt=&quot;Pedro presenting ChatHPC.&quot; /&gt;
+      &lt;/a&gt;
+    
+  
+  
+    &lt;figcaption&gt;Pictures from SC25
+&lt;/figcaption&gt;
+  
+&lt;/figure&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html"></summary></entry><entry><title type="html">ExCL October Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2025/" rel="alternate" type="text/html" title="ExCL October Meeting 2025" /><published>2025-10-16T00:00:00-04:00</published><updated>2025-10-16T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2025/">&lt;p&gt;October 2025 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -504,6 +573,4 @@ Testbeds are critical for evaluating the readiness of novel architectures as we 
 
 &lt;object data=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">August 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL July Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/july-meeting-2024/" rel="alternate" type="text/html" title="ExCL July Meeting 2024" /><published>2024-07-25T00:00:00-04:00</published><updated>2024-07-25T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/july-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/july-meeting-2024/">&lt;p&gt;July 2024 ExCL meeting slides.&lt;/p&gt;
 
-&lt;object data=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL June Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/june-meeting-2024/" rel="alternate" type="text/html" title="ExCL June Meeting 2024" /><published>2024-06-27T00:00:00-04:00</published><updated>2024-06-27T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/june-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/june-meeting-2024/">&lt;p&gt;June 2024 ExCL meeting slides.&lt;/p&gt;
-
-&lt;object data=&quot;/assets/presentations/2024-06-june-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-06-june-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">June 2024 ExCL meeting slides.</summary></entry></feed>
+&lt;object data=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-07-july-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2024 ExCL meeting slides.</summary></entry></feed>
