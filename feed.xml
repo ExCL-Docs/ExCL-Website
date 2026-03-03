@@ -1,4 +1,189 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-02-23T16:10:56-05:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL January Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/january-meeting-2026/" rel="alternate" type="text/html" title="ExCL January Meeting 2026" /><published>2026-01-15T00:00:00-05:00</published><updated>2026-01-15T00:00:00-05:00</updated><id>https://www.excl.ornl.gov/excl/january-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/january-meeting-2026/">&lt;p&gt;January 2026 ExCL meeting slides.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-03-03T11:53:05-05:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL February Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/february-meeting-2026/" rel="alternate" type="text/html" title="ExCL February Meeting 2026" /><published>2026-02-19T00:00:00-05:00</published><updated>2026-03-03T11:52:28-05:00</updated><id>https://www.excl.ornl.gov/excl/february-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/february-meeting-2026/">&lt;p&gt;February 2026 ExCL meeting slides.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;object data=&quot;/assets/presentations/2026-02-february-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2026-02-february-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below is a LLM-generated summary from the meeting slides.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;excl-monthly-update--february-2026&quot;&gt;ExCL Monthly Update – February 2026&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;February 19, 2026 – Oak Ridge, Tennessee&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Experimental Computing Laboratory (ExCL), Advanced Computing Systems Research Section&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The February ExCL Monthly Meeting highlighted significant infrastructure upgrades, documentation improvements, and ongoing efforts to expand our heterogeneous computing capabilities in support of growing AI and accelerator-driven workloads.&lt;/p&gt;
+
+&lt;p&gt;Below is a summary of key updates.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-new-system-deployment-maxwell-formerly-hyp-100&quot;&gt;🚀 New System Deployment: Maxwell (Formerly hyp-100)&lt;/h2&gt;
+
+&lt;p&gt;Maxwell is being redeployed from ORC to ExCL and will soon be integrated into the ExCL environment (including home directories and shared resources).&lt;/p&gt;
+
+&lt;h3 id=&quot;system-specifications&quot;&gt;System Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;2× AMD EPYC 7763 (64 cores each)&lt;/strong&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Expected to run hyperthreaded (256 cores total)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;1 TB Main Memory&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;4× NVIDIA A100 (40GB, no NVLink)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;4× AMD MI100 (32GB)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This system is particularly well suited for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;General compute workloads&lt;/li&gt;
+  &lt;li&gt;Large language model (LLM) experimentation&lt;/li&gt;
+  &lt;li&gt;Heterogeneous accelerator research&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Configuration is non-trivial, so the current OS release will likely remain in place during integration.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-thinlinc-updates-and-licensing&quot;&gt;🖥 ThinLinc Updates and Licensing&lt;/h2&gt;
+
+&lt;p&gt;ThinLinc has undergone both licensing and version updates.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-changes&quot;&gt;Key Changes&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Standard license reverted from &lt;strong&gt;10 → 3 concurrent users&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Upgraded to &lt;strong&gt;ThinLinc 4.20.0&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Secured &lt;strong&gt;90-day licenses for 10 concurrent users&lt;/strong&gt; while permanent licensing is pursued&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;important-reminder&quot;&gt;Important Reminder&lt;/h3&gt;
+
+&lt;p&gt;ThinLinc sessions are persistent (similar to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;tmux&lt;/code&gt;). Please &lt;strong&gt;log off when not actively using your session&lt;/strong&gt; to avoid consuming licenses unnecessarily.&lt;/p&gt;
+
+&lt;p&gt;Idle sessions may be terminated if needed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-thinlinc-xfce-configuration-reset&quot;&gt;⚠️ ThinLinc XFCE Configuration Reset&lt;/h2&gt;
+
+&lt;p&gt;If your XFCE desktop environment becomes unstable or misconfigured, reset it using:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; ~/.config/xfce4
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; ~/.cache/sessions
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; ~/.local/share/xfce4
+&lt;span class=&quot;nb&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-rf&lt;/span&gt; ~/.config/xfce4/panel
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This restores a clean session state.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-apptainer-deployment-expands&quot;&gt;📦 Apptainer Deployment Expands&lt;/h2&gt;
+
+&lt;p&gt;Apptainer has been successfully deployed and tested on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Affirmed&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Justify&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pharaoh&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Secretariat&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Faraday&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As additional systems are redeployed, Apptainer will be installed where appropriate to support containerized workflows.&lt;/p&gt;
+
+&lt;p&gt;Documentation is available in the ExCL User Docs.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-documentation-updates&quot;&gt;📚 Documentation Updates&lt;/h2&gt;
+
+&lt;p&gt;Several improvements have been made to ExCL documentation:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.excl.ornl.gov/quick-start-guides/python#python-virtual-environments-using-uv&quot;&gt;&lt;strong&gt;Python Virtual Environments Using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uv&lt;/code&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.excl.ornl.gov/quick-start-guides/marimo&quot;&gt;&lt;strong&gt;Marimo Quick Start Guide&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.excl.ornl.gov/quick-start-guides/jupyter-quick-start#using-foxyproxy-recommended&quot;&gt;&lt;strong&gt;Jupyter Notebook Access via FoxyProxy (Recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These updates streamline environment management and interactive development workflows.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-live-demonstration&quot;&gt;🎥 Live Demonstration&lt;/h2&gt;
+
+&lt;p&gt;The meeting included a demonstration covering:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ThinLinc usage&lt;/li&gt;
+  &lt;li&gt;FoxyProxy configuration&lt;/li&gt;
+  &lt;li&gt;Python environment setup with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;uv&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;SSH port forwarding&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These tools continue to form the recommended workflow for interactive ExCL usage.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-excl-microelectronics--neuromorphic-lab-3700a102&quot;&gt;🔬 ExCL Microelectronics &amp;amp; Neuromorphic Lab (3700/A102)&lt;/h2&gt;
+
+&lt;p&gt;Progress continues on the ExCL microelectronics and neuromorphic laboratory space:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ExCL VLAN networking completed&lt;/li&gt;
+  &lt;li&gt;Device relocation from 5100/227 being scheduled&lt;/li&gt;
+  &lt;li&gt;Infrastructure adjustments ongoing&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(We are also tracking down the mysteriously relocated stools.)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-new-gpu-deployments-ai-inference-focus&quot;&gt;🎮 New GPU Deployments (AI Inference Focus)&lt;/h2&gt;
+
+&lt;p&gt;To support increasing AI inference workloads, we are preparing to deploy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;NVIDIA GeForce RTX 5090&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AMD Radeon RX 9070 XT&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are consumer-grade but high-power GPUs intended to supplement current infrastructure.&lt;/p&gt;
+
+&lt;p&gt;We are also:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Re-engaging with &lt;strong&gt;Grok&lt;/strong&gt; regarding accelerator support&lt;/li&gt;
+  &lt;li&gt;Holding discussions with &lt;strong&gt;Tenstorrent&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Long-term, these accelerators may help shift workload away from traditional GPUs.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-slurm-reminder-gpu-jobs&quot;&gt;🧠 Slurm Reminder (GPU Jobs)&lt;/h2&gt;
+
+&lt;p&gt;If your job requires GPUs, ensure you request them explicitly via Slurm:&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;--gpus&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Failure to request GPU resources may result in improper scheduling or runtime errors.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking Ahead&lt;/h2&gt;
+
+&lt;p&gt;ExCL continues to expand its heterogeneous computing capabilities across CPUs, GPUs, and emerging accelerator platforms. With growing AI and inference demands, our infrastructure roadmap remains focused on flexibility, containerization, and performance experimentation.&lt;/p&gt;
+
+&lt;p&gt;If you have questions, project ideas, or would like systems deployed with specific configurations (e.g., Apptainer), please reach out.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">February 2026 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL January Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/january-meeting-2026/" rel="alternate" type="text/html" title="ExCL January Meeting 2026" /><published>2026-01-15T00:00:00-05:00</published><updated>2026-01-15T14:49:37-05:00</updated><id>https://www.excl.ornl.gov/excl/january-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/january-meeting-2026/">&lt;p&gt;January 2026 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -56,7 +241,7 @@
 &lt;ul&gt;
   &lt;li&gt;Check out the inaugural &lt;strong&gt;ExCL Newsletter&lt;/strong&gt; for research highlights and best practices.&lt;/li&gt;
   &lt;li&gt;For questions or collaborations, reach out to the ExCL team.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">January 2026 ExCL meeting slides.</summary></entry><entry><title type="html">Research conducted on ExCL and presented at SC25</title><link href="https://www.excl.ornl.gov/excl/sc25/" rel="alternate" type="text/html" title="Research conducted on ExCL and presented at SC25" /><published>2026-01-08T00:00:00-05:00</published><updated>2026-01-08T00:00:00-05:00</updated><id>https://www.excl.ornl.gov/excl/sc25</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/sc25/">&lt;!--more--&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">January 2026 ExCL meeting slides.</summary></entry><entry><title type="html">Research conducted on ExCL and presented at SC25</title><link href="https://www.excl.ornl.gov/excl/sc25/" rel="alternate" type="text/html" title="Research conducted on ExCL and presented at SC25" /><published>2026-01-08T00:00:00-05:00</published><updated>2026-01-08T17:41:16-05:00</updated><id>https://www.excl.ornl.gov/excl/sc25</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/sc25/">&lt;!--more--&gt;
 
 &lt;h2 id=&quot;-best-paper-recognition-at-waccpd&quot;&gt;🏆 Best Paper Recognition at WACCPD&lt;/h2&gt;
 
@@ -125,7 +310,7 @@
     &lt;figcaption&gt;Pictures from SC25
 &lt;/figcaption&gt;
   
-&lt;/figure&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html"></summary></entry><entry><title type="html">ExCL October Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2025/" rel="alternate" type="text/html" title="ExCL October Meeting 2025" /><published>2025-10-16T00:00:00-04:00</published><updated>2025-10-16T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2025/">&lt;p&gt;October 2025 ExCL meeting slides.&lt;/p&gt;
+&lt;/figure&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html"></summary></entry><entry><title type="html">ExCL October Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2025/" rel="alternate" type="text/html" title="ExCL October Meeting 2025" /><published>2025-10-16T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2025/">&lt;p&gt;October 2025 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -191,7 +376,7 @@
 
 &lt;h3 id=&quot;questions-and-discussion&quot;&gt;Questions and Discussion&lt;/h3&gt;
 
-&lt;p&gt;The meeting concluded with a Q&amp;amp;A session where various topics such as power measurement at the host, CPU, and APU levels were discussed.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL July Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/july-meeting-2025/" rel="alternate" type="text/html" title="ExCL July Meeting 2025" /><published>2025-07-17T00:00:00-04:00</published><updated>2025-07-17T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/july-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/july-meeting-2025/">&lt;p&gt;July 2025 ExCL meeting slides.&lt;/p&gt;
+&lt;p&gt;The meeting concluded with a Q&amp;amp;A session where various topics such as power measurement at the host, CPU, and APU levels were discussed.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL July Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/july-meeting-2025/" rel="alternate" type="text/html" title="ExCL July Meeting 2025" /><published>2025-07-17T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/july-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/july-meeting-2025/">&lt;p&gt;July 2025 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -229,7 +414,7 @@
 
 &lt;h2 id=&quot;community-input&quot;&gt;Community Input&lt;/h2&gt;
 
-&lt;p&gt;We continue to welcome feedback from our users — especially around system needs, project requirements, and upcoming resource opportunities.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL May Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/may-meeting-2025/" rel="alternate" type="text/html" title="ExCL May Meeting 2025" /><published>2025-05-15T00:00:00-04:00</published><updated>2025-05-15T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/may-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/may-meeting-2025/">&lt;p&gt;May 2025 ExCL meeting slides.&lt;/p&gt;
+&lt;p&gt;We continue to welcome feedback from our users — especially around system needs, project requirements, and upcoming resource opportunities.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL May Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/may-meeting-2025/" rel="alternate" type="text/html" title="ExCL May Meeting 2025" /><published>2025-05-15T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/may-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/may-meeting-2025/">&lt;p&gt;May 2025 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -339,7 +524,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">May 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL April Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/april-meeting-2025/" rel="alternate" type="text/html" title="ExCL April Meeting 2025" /><published>2025-04-17T00:00:00-04:00</published><updated>2025-04-17T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/april-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/april-meeting-2025/">&lt;p&gt;April 2025 ExCL meeting slides.&lt;/p&gt;
+&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">May 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL April Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/april-meeting-2025/" rel="alternate" type="text/html" title="ExCL April Meeting 2025" /><published>2025-04-17T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/april-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/april-meeting-2025/">&lt;p&gt;April 2025 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -428,7 +613,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">April 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL March Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/march-meeting-2025/" rel="alternate" type="text/html" title="ExCL March Meeting 2025" /><published>2025-03-20T00:00:00-04:00</published><updated>2025-03-20T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/march-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/march-meeting-2025/">&lt;p&gt;March 2025 ExCL meeting slides.&lt;/p&gt;
+&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">April 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL March Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/march-meeting-2025/" rel="alternate" type="text/html" title="ExCL March Meeting 2025" /><published>2025-03-20T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/march-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/march-meeting-2025/">&lt;p&gt;March 2025 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -505,7 +690,7 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">March 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL at SC24: Advancing the Future of HPC Testbeds</title><link href="https://www.excl.ornl.gov/excl/sc24/" rel="alternate" type="text/html" title="ExCL at SC24: Advancing the Future of HPC Testbeds" /><published>2024-12-20T00:00:00-05:00</published><updated>2024-12-20T00:00:00-05:00</updated><id>https://www.excl.ornl.gov/excl/sc24</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/sc24/">&lt;p&gt;We are thrilled to announce that &lt;strong&gt;ExCL (Experimental Computing Laboratory)&lt;/strong&gt; was an active participant at SC24! This year, we contributed to the Birds of a Feather (BoF) session focused on &lt;strong&gt;testbeds for the exascale and post-exascale era&lt;/strong&gt;, exploring the forefront of HPC innovation.&lt;/p&gt;
+&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">March 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL at SC24: Advancing the Future of HPC Testbeds</title><link href="https://www.excl.ornl.gov/excl/sc24/" rel="alternate" type="text/html" title="ExCL at SC24: Advancing the Future of HPC Testbeds" /><published>2024-12-20T00:00:00-05:00</published><updated>2024-12-20T15:57:57-05:00</updated><id>https://www.excl.ornl.gov/excl/sc24</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/sc24/">&lt;p&gt;We are thrilled to announce that &lt;strong&gt;ExCL (Experimental Computing Laboratory)&lt;/strong&gt; was an active participant at SC24! This year, we contributed to the Birds of a Feather (BoF) session focused on &lt;strong&gt;testbeds for the exascale and post-exascale era&lt;/strong&gt;, exploring the forefront of HPC innovation.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -548,7 +733,7 @@ Testbeds are critical for evaluating the readiness of novel architectures as we 
 
 &lt;p&gt;Stay connected with ExCL by joining our mailing list by &lt;a href=&quot;mailto:excl-help@ornl.gov&quot;&gt;contacting us&lt;/a&gt; or register to the &lt;a href=&quot;https://www.excl.ornl.gov/feed.xml&quot;&gt;RSS feed&lt;/a&gt; to receive updates with news from the website. Together, let’s shape the future of supercomputing. 💻✨&lt;/p&gt;
 
-&lt;p&gt;Disclaimer: Created with the help of AI and reviewed for accuracy.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html">We are thrilled to announce that ExCL (Experimental Computing Laboratory) was an active participant at SC24! This year, we contributed to the Birds of a Feather (BoF) session focused on testbeds for the exascale and post-exascale era, exploring the forefront of HPC innovation.</summary></entry><entry><title type="html">ExCL October Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2024/" rel="alternate" type="text/html" title="ExCL October Meeting 2024" /><published>2024-10-24T00:00:00-04:00</published><updated>2024-10-24T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2024/">&lt;p&gt;October 2024 ExCL meeting slides.&lt;/p&gt;
+&lt;p&gt;Disclaimer: Created with the help of AI and reviewed for accuracy.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html">We are thrilled to announce that ExCL (Experimental Computing Laboratory) was an active participant at SC24! This year, we contributed to the Birds of a Feather (BoF) session focused on testbeds for the exascale and post-exascale era, exploring the forefront of HPC innovation.</summary></entry><entry><title type="html">ExCL October Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2024/" rel="alternate" type="text/html" title="ExCL October Meeting 2024" /><published>2024-10-24T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2024/">&lt;p&gt;October 2024 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -627,6 +812,4 @@ Testbeds are critical for evaluating the readiness of novel architectures as we 
 
 &lt;p&gt;We hope this summary provides a helpful overview of our October meeting. For any further questions or comments, feel free to reach out to the ExCL team. Stay tuned for our monthly newsletter and future updates!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Keep exploring, keep computing!&lt;/em&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2024 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL August Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/august-meeting-2024/" rel="alternate" type="text/html" title="ExCL August Meeting 2024" /><published>2024-08-22T00:00:00-04:00</published><updated>2024-08-22T00:00:00-04:00</updated><id>https://www.excl.ornl.gov/excl/august-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/august-meeting-2024/">&lt;p&gt;August 2024 ExCL meeting slides.&lt;/p&gt;
-
-&lt;object data=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-08-august-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">August 2024 ExCL meeting slides.</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Keep exploring, keep computing!&lt;/em&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2024 ExCL meeting slides.</summary></entry></feed>
