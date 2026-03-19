@@ -1,4 +1,188 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-03-03T11:53:05-05:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL February Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/february-meeting-2026/" rel="alternate" type="text/html" title="ExCL February Meeting 2026" /><published>2026-02-19T00:00:00-05:00</published><updated>2026-03-03T11:52:28-05:00</updated><id>https://www.excl.ornl.gov/excl/february-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/february-meeting-2026/">&lt;p&gt;February 2026 ExCL meeting slides.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-03-19T16:32:20-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL March Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/march-meeting.2026/" rel="alternate" type="text/html" title="ExCL March Meeting 2026" /><published>2026-03-19T00:00:00-04:00</published><updated>2026-03-19T16:30:27-04:00</updated><id>https://www.excl.ornl.gov/excl/march-meeting.2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/march-meeting.2026/">&lt;p&gt;March 2026 ExCL meeting slides.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;object data=&quot;/assets/presentations/2026-03-march-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2026-03-march-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below is a LLM-generated summary from the meeting slides.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-excl-monthly-update--march-2026&quot;&gt;🚀 ExCL Monthly Update — March 2026&lt;/h1&gt;
+
+&lt;p&gt;This month’s updates focus on &lt;strong&gt;storage usability, CI improvements, shared infrastructure, and data management best practices&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-improved-project-storage-navigation&quot;&gt;📂 Improved Project Storage Navigation&lt;/h2&gt;
+
+&lt;p&gt;We’ve made a small but impactful usability improvement:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You can now &lt;strong&gt;read project folder names under &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/auto/projects&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Permissions remain unchanged, but &lt;strong&gt;directory discovery is much easier&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Tools like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vim&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;yazi&lt;/code&gt;, and tab completion now work more effectively&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;💡 &lt;em&gt;Note:&lt;/em&gt; The first access still triggers automount—after that, navigation is seamless.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-new-shared-storage-for-apptainer-images&quot;&gt;📦 New Shared Storage for Apptainer Images&lt;/h2&gt;
+
+&lt;p&gt;To better support large container workflows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;New shared location:&lt;/p&gt;
+
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/auto/projects/apptainer
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Designed for &lt;strong&gt;large, reusable Apptainer images&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Current use cases include:
+    &lt;ul&gt;
+      &lt;li&gt;Unreal Engine containers&lt;/li&gt;
+      &lt;li&gt;AMD Vitis environments&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Storage policy:
+    &lt;ul&gt;
+      &lt;li&gt;Default cap: &lt;strong&gt;1 TB&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;Adjustable as needed&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-ci-on-excl-slurm--gitlab-recommended&quot;&gt;⚙️ CI on ExCL: Slurm + GitLab (Recommended)&lt;/h2&gt;
+
+&lt;p&gt;Running CI through Slurm is now the &lt;strong&gt;standard and recommended approach for jobs running across multiple ExCL systems&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;key-improvements&quot;&gt;Key Improvements&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;✅ &lt;strong&gt;CI template now checks &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;sbatch&lt;/code&gt; return codes&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;⚠️ Standard error is treated as a &lt;strong&gt;warning&lt;/strong&gt;, not immediate failure&lt;/li&gt;
+  &lt;li&gt;🧪 New &lt;strong&gt;system-device-smoke-test&lt;/strong&gt;:
+    &lt;ul&gt;
+      &lt;li&gt;Validates CUDA, HIP, OpenMP, OpenCL&lt;/li&gt;
+      &lt;li&gt;Runs across major ExCL systems&lt;/li&gt;
+      &lt;li&gt;Uses shared IRIS setup scripts:&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; /auto/software/iris/setup-system.source
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;📌 This significantly improves &lt;strong&gt;reliability and portability of CI pipelines&lt;/strong&gt; across heterogeneous nodes.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-dvc-for-data-management-on-excl&quot;&gt;📊 DVC for Data Management on ExCL&lt;/h2&gt;
+
+&lt;p&gt;We now recommend &lt;strong&gt;DVC (Data Version Control)&lt;/strong&gt; for managing datasets and pipelines.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-dvc-works-well-on-excl&quot;&gt;Why DVC Works Well on ExCL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Shared cache model:
+    &lt;ul&gt;
+      &lt;li&gt;Store data in a &lt;strong&gt;project-level shared cache&lt;/strong&gt;&lt;/li&gt;
+      &lt;li&gt;Avoid duplication across repos&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Hybrid workflow:
+    &lt;ul&gt;
+      &lt;li&gt;Same cache can act as:
+        &lt;ul&gt;
+          &lt;li&gt;Local shared storage (on ExCL)&lt;/li&gt;
+          &lt;li&gt;Remote storage (outside ExCL)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;👉 See the &lt;strong&gt;&lt;a href=&quot;https://docs.excl.ornl.gov/quick-start-guides/dvc&quot;&gt;DVC Quick Start Guide in ExCL Docs&lt;/a&gt;&lt;/strong&gt; for setup instructions.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-documentation-best-practices-highlight&quot;&gt;📚 Documentation Best Practices Highlight&lt;/h2&gt;
+
+&lt;p&gt;We highlighted an excellent resource:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://cass.community/events/hpcbp-097-onegoodtutorial&quot;&gt;“Minimum Viable Documentation Product (MVDP)”&lt;/a&gt;&lt;/strong&gt;
+from the Consortium for the Advancement of Scientific Software&lt;/p&gt;
+
+&lt;h3 id=&quot;key-takeaway&quot;&gt;Key Takeaway&lt;/h3&gt;
+
+&lt;p&gt;Follow a &lt;strong&gt;documentation checklist&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;🗺️ &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/synopsis/&quot;&gt;Synopsis&lt;/a&gt;:&lt;/strong&gt; 1–3 sentence summary of your project&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;📑 &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/tutorial-planning/&quot;&gt;Tutorial&lt;/a&gt;:&lt;/strong&gt; ✨ Show people what your software can do! ✨&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;👩‍🔧 &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/contact-information/&quot;&gt;Contact Information&lt;/a&gt;:&lt;/strong&gt; How to ask a human about your software&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;🚀 &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/installation-instructions/&quot;&gt;Install Instructions&lt;/a&gt;:&lt;/strong&gt; How to install your software&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;📜 &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/software-citation/&quot;&gt;Citation Instructions&lt;/a&gt;:&lt;/strong&gt; How to cite your software&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;🙌 &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/contribution-statements/&quot;&gt;Contribution Statement&lt;/a&gt;:&lt;/strong&gt; How users can contribute to your project&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;📚 &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/reference-material/&quot;&gt;Reference Material&lt;/a&gt;:&lt;/strong&gt; Precise specifications of APIs, etc.&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;⚖️ &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/licensing-statements/&quot;&gt;Licensing Statement&lt;/a&gt;:&lt;/strong&gt; The legal status of your code&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;🙏 &lt;strong&gt;&lt;a href=&quot;https://onegoodtutorial.org/in-depth/acknowledgments/&quot;&gt;Acknowledgments&lt;/a&gt;:&lt;/strong&gt; Credit your funders&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;🔗 Resource: &lt;a href=&quot;https://onegoodtutorial.org&quot;&gt;https://onegoodtutorial.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-system--infrastructure-updates&quot;&gt;🖥️ System &amp;amp; Infrastructure Updates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;⏳ Migration of &lt;strong&gt;MI100 / V100 system&lt;/strong&gt; delayed until after SC26 submissions&lt;/li&gt;
+  &lt;li&gt;🔄 Work ongoing to restore &lt;strong&gt;Groq inference hardware&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;🆕 &lt;strong&gt;Tenstorrent Blackhole&lt;/strong&gt; acquisition in progress&lt;/li&gt;
+  &lt;li&gt;🔧 Scheduled downtime:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;strong&gt;Tuesday, March 24, 9–11 AM&lt;/strong&gt;
+        &lt;ul&gt;
+          &lt;li&gt;OS updates + system reboots&lt;/li&gt;
+          &lt;li&gt;No NVIDIA driver updates (unless requested)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-open-topics--discussion-areas&quot;&gt;💬 Open Topics &amp;amp; Discussion Areas&lt;/h2&gt;
+
+&lt;p&gt;We’re actively gathering feedback on:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Legacy system usage (e.g., &lt;em&gt;Leconte PowerPC + V100&lt;/em&gt;)&lt;/li&gt;
+  &lt;li&gt;Hudson access policies. Request to limit system to Slurm-only access.&lt;/li&gt;
+  &lt;li&gt;Cloud GPU access options&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
+
+&lt;p&gt;This month’s updates continue to push ExCL toward:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;More usable shared infrastructure&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scalable data workflows (DVC)&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Robust CI across heterogeneous systems&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Better documentation practices&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you have feedback or want help adopting any of these tools, reach out!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">March 2026 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL February Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/february-meeting-2026/" rel="alternate" type="text/html" title="ExCL February Meeting 2026" /><published>2026-02-19T00:00:00-05:00</published><updated>2026-03-03T11:52:28-05:00</updated><id>https://www.excl.ornl.gov/excl/february-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/february-meeting-2026/">&lt;p&gt;February 2026 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -733,83 +917,4 @@ Testbeds are critical for evaluating the readiness of novel architectures as we 
 
 &lt;p&gt;Stay connected with ExCL by joining our mailing list by &lt;a href=&quot;mailto:excl-help@ornl.gov&quot;&gt;contacting us&lt;/a&gt; or register to the &lt;a href=&quot;https://www.excl.ornl.gov/feed.xml&quot;&gt;RSS feed&lt;/a&gt; to receive updates with news from the website. Together, let’s shape the future of supercomputing. 💻✨&lt;/p&gt;
 
-&lt;p&gt;Disclaimer: Created with the help of AI and reviewed for accuracy.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html">We are thrilled to announce that ExCL (Experimental Computing Laboratory) was an active participant at SC24! This year, we contributed to the Birds of a Feather (BoF) session focused on testbeds for the exascale and post-exascale era, exploring the forefront of HPC innovation.</summary></entry><entry><title type="html">ExCL October Meeting 2024</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2024/" rel="alternate" type="text/html" title="ExCL October Meeting 2024" /><published>2024-10-24T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2024</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2024/">&lt;p&gt;October 2024 ExCL meeting slides.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;object data=&quot;/assets/presentations/2024-10-october-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2024-10-october-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Below is a LLM-generated summary of the meeting based on the presentation slides.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;october-2024-monthly-meeting-highlights-experimental-computing-laboratory&quot;&gt;October 2024 Monthly Meeting Highlights: Experimental Computing Laboratory&lt;/h2&gt;
-
-&lt;p&gt;Welcome to our October 2024 update! In this post, we’ll cover the key topics from the recent Experimental Computing Laboratory meeting. From system updates to deployment plans, here’s everything you need to know about our recent strides in computing infrastructure and technology.&lt;/p&gt;
-
-&lt;h3 id=&quot;system-and-infrastructure-updates&quot;&gt;&lt;strong&gt;System and Infrastructure Updates&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;strong&gt;Ubuntu 24.04 Rollout&lt;/strong&gt;: The new Ubuntu 24.04 has been announced but is pending approval for ORNL use. Until then, we are holding off on installations or upgrades due to stability concerns.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Migration Progress&lt;/strong&gt;: Nearly all user-facing systems have been transitioned to Ubuntu 22.04. We have one remaining CentOS 7 system and a new Rocky 9 system built for testing in that environment.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Control Groups Version&lt;/strong&gt;: All rebuilt systems now support cgroups v2. Users needing v1 should contact the ExCL staff for configuration help. This change was done as part of the upgraded slurm deployment.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;three-month-outlook&quot;&gt;&lt;strong&gt;Three-Month Outlook&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Documentation Improvements&lt;/strong&gt;: Continuation of updates to system use and assignment documentation on our &lt;a href=&quot;https://docs.excl.ornl.gov&quot;&gt;documentation site&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;UID &amp;amp; GID Stabilization&lt;/strong&gt;: We’re stabilizing UID &amp;amp; GID assignments across ExCL to facilitate service deployment and integration.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Deployment of Mi300a Systems&lt;/strong&gt;: A new Mi300a system with integrated GPUs is awaiting deployment in the 5100 data center to support a heterogeneous accelerator environment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;mi300a-specifications&quot;&gt;&lt;strong&gt;Mi300a Specifications&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;p&gt;The Mi300a system features:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;4x Mi300A system APUs (integrated CPUs and GPUs)&lt;/li&gt;
-  &lt;li&gt;128 GB HBM3 memory per APU&lt;/li&gt;
-  &lt;li&gt;Infinity Fabric Links and PCIe 5.0x16 slots for peripherals&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amd.com/en/products/accelerators/instinct/mi300/mi300a.html&quot;&gt;More about Mi300a&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;ssh-keys-for-authentication&quot;&gt;SSH Keys for Authentication&lt;/h2&gt;
-
-&lt;p&gt;Using SSH keys is now the preferred method for user authentication and connecting with private Git repositories. We recommend using SSH keys with a passphrase for added security. This approach helps avoid potential account lockouts caused by automatic login tools, which can exceed retry limits when using cached passwords.&lt;/p&gt;
-
-&lt;h3 id=&quot;proposed-host-layout-changes&quot;&gt;&lt;strong&gt;Proposed Host Layout Changes&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Milan0 GPU Reconfiguration&lt;/strong&gt;: A proposal to reconfigure Milan0 with two AMD M100 GPUs and deploy additional accelerators to create a more diverse and efficient computing environment.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;iris-setup-scripts&quot;&gt;IRIS Setup Scripts&lt;/h2&gt;
-
-&lt;p&gt;We now have setup scripts available for configuring ExCL systems for IRIS accelerator use. These scripts can be found at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/auto/software/iris&lt;/code&gt; and used by sourcing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;setup_system.source&lt;/code&gt;. To request changes, users can fork the repository and create a merge request, which will be reviewed and then deployed.&lt;/p&gt;
-
-&lt;h3 id=&quot;host-quarantine-and-compliance&quot;&gt;&lt;strong&gt;Host Quarantine and Compliance&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Compliance Updates&lt;/strong&gt;: Updates on ITSD compliance enforcement and the status of ExCL systems under the DOE-mandated host quarantine policy.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;container-registry-transition&quot;&gt;&lt;strong&gt;Container Registry Transition&lt;/strong&gt;&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;From GitLab to Harbor&lt;/strong&gt;: The container registry has been moved from GitLab to Harbor, enhancing our capabilities in managing containers more effectively. Training and documentation for Harbor are available online.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;discussions-and-questions&quot;&gt;Discussions and Questions&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;IRIS Container&lt;/strong&gt;: There were discussions regarding the feasibility of using Harbor for IRIS containers. Though IRIS does not currently have a container, it is feasible for future use.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;HiFive in ExCL&lt;/strong&gt;: Ongoing discussions about integrating HiFive into our infrastructure, pending approval.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;We hope this summary provides a helpful overview of our October meeting. For any further questions or comments, feel free to reach out to the ExCL team. Stay tuned for our monthly newsletter and future updates!&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Keep exploring, keep computing!&lt;/em&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2024 ExCL meeting slides.</summary></entry></feed>
+&lt;p&gt;Disclaimer: Created with the help of AI and reviewed for accuracy.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html">We are thrilled to announce that ExCL (Experimental Computing Laboratory) was an active participant at SC24! This year, we contributed to the Birds of a Feather (BoF) session focused on testbeds for the exascale and post-exascale era, exploring the forefront of HPC innovation.</summary></entry></feed>
