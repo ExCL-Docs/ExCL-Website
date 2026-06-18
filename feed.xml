@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-05-21T13:45:28-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL May Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/may-meeting-2026/" rel="alternate" type="text/html" title="ExCL May Meeting 2026" /><published>2026-05-21T00:00:00-04:00</published><updated>2026-05-21T13:40:31-04:00</updated><id>https://www.excl.ornl.gov/excl/may-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/may-meeting-2026/">&lt;p&gt;May 2026 ExCL meeting slides.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-06-18T14:27:33-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL June Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/june-meeting-2026/" rel="alternate" type="text/html" title="ExCL June Meeting 2026" /><published>2026-06-18T00:00:00-04:00</published><updated>2026-06-18T14:27:17-04:00</updated><id>https://www.excl.ornl.gov/excl/june-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/june-meeting-2026/">&lt;p&gt;June 2026 ExCL meeting slides.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;object data=&quot;/assets/presentations/2026-06-june-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2026-06-june-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below is a LLM-generated summary from the meeting slides.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-excl-monthly-update--june-2026&quot;&gt;🚀 ExCL Monthly Update — June 2026&lt;/h1&gt;
+
+&lt;p&gt;This month’s meeting featured spotlights on data versioning tools for ML workflows, an operations and procurement update, a hardware redeployment note, and an open discussion on performance-monitoring access.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-data-versioning-tool-spotlights&quot;&gt;📁 Data Versioning Tool Spotlights&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;DVC (Data Version Control)&lt;/strong&gt; — &lt;a href=&quot;https://dvc.org/&quot;&gt;dvc.org&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Works well with ExCL: data can be stored in a shared cache in the project folder, which can also serve as remote data storage outside of ExCL&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;dvc repro&lt;/code&gt; reproduces a pipeline by figuring out what changed and rerunning only the affected stages&lt;/li&gt;
+  &lt;li&gt;See the &lt;a href=&quot;https://docs.excl.ornl.gov/quick-start-guides/dvc&quot;&gt;DVC Quick-Start Guide&lt;/a&gt; in the ExCL User Docs&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;LakeFS&lt;/strong&gt; — &lt;a href=&quot;https://lakefs.io/&quot;&gt;lakefs.io&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Git-like version control for a data lake&lt;/li&gt;
+  &lt;li&gt;Provides a unified, high-performance, secure API over versioned, reproducible, and auditable storage&lt;/li&gt;
+  &lt;li&gt;Integrates with common data/ML tooling (Spark, pandas, Jupyter, MLflow, TensorFlow, langchain, and more) and backs onto POSIX, S3, GCS, Azure Blob, and other S3-compatible storage&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-operations-and-procurement&quot;&gt;🛠️ Operations and Procurement&lt;/h2&gt;
+
+&lt;p&gt;Most recent operations work has been internal and infrastructure-focused:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Updates to respond to well-known kernel vulnerabilities&lt;/li&gt;
+  &lt;li&gt;More frequent update schedules going forward, likely aligning to a monthly update/reboot cadence&lt;/li&gt;
+  &lt;li&gt;Extensive work on account management to reduce staff overhead and the opportunity for errors
+    &lt;ul&gt;
+      &lt;li&gt;Accounts are being reviewed for PAS compliance; PAS will become a requirement on all accounts (low effort for ORNL staff members)&lt;/li&gt;
+      &lt;li&gt;PAS requests for foreign national researchers have substantial lead times (about four weeks)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Procurement proposals are in motion — now is the time to get research-enabling suggestions and requests to your systems engineering team&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-excl-updates&quot;&gt;🖥️ ExCL Updates&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The former HYP100 system (4x V100, 4x MK100) is now in the ExCL laboratory envelope (in K200)&lt;/li&gt;
+  &lt;li&gt;Maxwell will be redeployed next week as an ExCL-standard configured system; emergency access is available before redeployment is complete&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-questions--projects--comments--discussions&quot;&gt;💬 Questions / Projects / Comments / Discussions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Recordings are available via the link in the newsletter&lt;/li&gt;
+  &lt;li&gt;Discussion on how to provide solo access for performance analysis, and how that would affect GitLab runners&lt;/li&gt;
+  &lt;li&gt;Interest in performance monitoring via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;btop&lt;/code&gt;, and whether to extend user access to Grafana/check_mk&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
+
+&lt;p&gt;June’s meeting highlighted two data-versioning tools (DVC and LakeFS) for ML and data-lake workflows, continued operations and account-management hardening, a hardware redeployment (Maxwell), and an open discussion on expanding performance-monitoring access for users.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">June 2026 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL May Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/may-meeting-2026/" rel="alternate" type="text/html" title="ExCL May Meeting 2026" /><published>2026-05-21T00:00:00-04:00</published><updated>2026-05-21T13:40:31-04:00</updated><id>https://www.excl.ornl.gov/excl/may-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/may-meeting-2026/">&lt;p&gt;May 2026 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -933,81 +1007,4 @@ from the Consortium for the Advancement of Scientific Software&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">April 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL March Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/march-meeting-2025/" rel="alternate" type="text/html" title="ExCL March Meeting 2025" /><published>2025-03-20T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/march-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/march-meeting-2025/">&lt;p&gt;March 2025 ExCL meeting slides.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;object data=&quot;/assets/presentations/2025-03-march-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-03-march-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Below is a LLM-generated summary of the meeting based on the presentation slides.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;monthly-meeting-highlights---experimental-computing-laboratory-excl---march-2025&quot;&gt;Monthly Meeting Highlights - Experimental Computing Laboratory (ExCL) - March 2025&lt;/h1&gt;
-
-&lt;p&gt;The March 2025 meeting of the Experimental Computing Laboratory (ExCL) brought together key insights and updates on various aspects of the laboratory’s infrastructure, upcoming plans, and enhancements to resources and documentation. Here’s a summary of the key topics discussed:&lt;/p&gt;
-
-&lt;h2 id=&quot;1-infrastructuresystem-status&quot;&gt;1. &lt;strong&gt;Infrastructure/System Status&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The infrastructure is in good shape with no major outages planned. However, there are a few notable points:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Arista Networking&lt;/strong&gt;: The current networking infrastructure is now out of support. Replacement quotes are being gathered.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;TRC Availability&lt;/strong&gt;: While the Translational Research Capability (TRC) is available, there will be some things to take care of like networking before moving in.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Mi300a Issues&lt;/strong&gt;: A replacement part was misplaced, and work is underway to resolve this.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;CentOS7 Systems&lt;/strong&gt;: The last CentOS7 infrastructure system is still in operation, but upgrades are being processed.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;2-plans-for-the-next-three-months&quot;&gt;2. &lt;strong&gt;Plans for the Next Three Months&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Several exciting updates are planned for the next quarter, including:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Continued &lt;strong&gt;documentation and capability updates&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Deployment of the &lt;strong&gt;ARC Pro A60&lt;/strong&gt; card and &lt;strong&gt;AMD Xilinx U280&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Moving the rack to &lt;strong&gt;D102&lt;/strong&gt;, pending infrastructure work (e.g., power distribution and networking improvements).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;3-power-consumption-monitoring&quot;&gt;3. &lt;strong&gt;Power Consumption Monitoring&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The current power consumption monitoring capabilities are limited. Some highlights:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;PDU Monitoring&lt;/strong&gt;: Available but limited in scope.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Host Instrumentation&lt;/strong&gt;: Generally not great, with occasional power data available from BMC for power supplies.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GPU Instrumentation&lt;/strong&gt;: For Nvidia and AMD, GPU monitoring is generally excellent, though work is required to integrate AMD glue code into Check_MK.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;4-meeting-notifications-and-groupsio&quot;&gt;4. &lt;strong&gt;Meeting Notifications and Groups.io&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;ExCL User Group meetings are announced through their &lt;strong&gt;Groups.io mailing list&lt;/strong&gt;. You can easily add these meetings to your calendar through the .ics file attachment in the notification email.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-reminder-ssh-keys-for-authentication&quot;&gt;5. &lt;strong&gt;Reminder: SSH Keys for Authentication&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;ExCL encourages using &lt;strong&gt;SSH keys&lt;/strong&gt; for authentication, citing advantages over passwords:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;SSH keys provide better security and reduce the risk of account lockout after multiple failed login attempts.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Visual Studio Code&lt;/strong&gt; and &lt;strong&gt;GitHub Docs&lt;/strong&gt; provide guides to help set up SSH keys for remote development.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;6-documentation-updates&quot;&gt;6. &lt;strong&gt;Documentation Updates&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Several important updates were made to the ExCL User Documentation:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Jupyter Notebook&lt;/strong&gt; and &lt;strong&gt;Julia&lt;/strong&gt; quick-start guides have been updated.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;New guides&lt;/strong&gt; were introduced for &lt;strong&gt;Marimo&lt;/strong&gt;, &lt;strong&gt;Modules&lt;/strong&gt;, &lt;strong&gt;Backup &amp;amp; Storage&lt;/strong&gt;, and &lt;strong&gt;ExCL Remote Development&lt;/strong&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;7-conda-deprecation-and-suggested-alternatives&quot;&gt;7. &lt;strong&gt;Conda Deprecation and Suggested Alternatives&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;ExCL has announced the deprecation of the &lt;strong&gt;Conda&lt;/strong&gt; module and use at ORNL, with detailed instructions for transitioning to other tools such as &lt;strong&gt;Spack&lt;/strong&gt;. Documentation on this change is available for users to help navigate the transition smoothly.&lt;/p&gt;
-
-&lt;h2 id=&quot;8-excl-project-storage&quot;&gt;8. &lt;strong&gt;ExCL Project Storage&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;ExCL now offers &lt;strong&gt;shared storage&lt;/strong&gt; for collaborative projects, managed through &lt;strong&gt;Access Control Lists (ACLs)&lt;/strong&gt; to ensure security. Projects get a dedicated subvolume on the ZFS filesystem, and access is restricted to members of the project.&lt;/p&gt;
-
-&lt;h2 id=&quot;9-open-webui-and-foxy-proxy-setup&quot;&gt;9. &lt;strong&gt;Open WebUI and Foxy Proxy Setup&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;The &lt;strong&gt;Open WebUI&lt;/strong&gt; provides an interface for managing multiple ExCL tools, while &lt;strong&gt;Foxy Proxy&lt;/strong&gt; is a useful tool for accessing services like &lt;strong&gt;ThinLinc&lt;/strong&gt;, &lt;strong&gt;Jupyter&lt;/strong&gt;, and &lt;strong&gt;Marimo&lt;/strong&gt;. Documentation is available for setting up both tools.&lt;/p&gt;
-
-&lt;h2 id=&quot;10-questions-discussions-and-comments&quot;&gt;10. &lt;strong&gt;Questions, Discussions, and Comments&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;Some open issues were discussed, including:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Apple M1 Availability&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;An issue with &lt;strong&gt;M100 memory&lt;/strong&gt;.&lt;/li&gt;
-  &lt;li&gt;Links for additional information were shared on &lt;strong&gt;Creative Commons Licensing&lt;/strong&gt; and further documentation.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">March 2025 ExCL meeting slides.</summary></entry></feed>
+&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">April 2025 ExCL meeting slides.</summary></entry></feed>
