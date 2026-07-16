@@ -17,6 +17,12 @@ var store = [{
         "url": "/excl/august-meeting-2023/",
         "teaser": "/assets/images/august-meeting-2023-splash.png"
       },{
+        "title": "Title",
+        "excerpt":" ","categories": ["ExCL"],
+        "tags": ["Template"],
+        "url": "/excl/template/",
+        "teaser": "/assets/images/template-teaser.png"
+      },{
         "title": "ExCL September Meeting 2023",
         "excerpt":"September 2023 ExCL meeting slides.   It appears that you don't have a PDF plugin for this browser. You can click here to download the PDF file.   ","categories": ["ExCL"],
         "tags": ["User Meetings"],
@@ -130,4 +136,10 @@ var store = [{
         "tags": ["User Meetings"],
         "url": "/excl/june-meeting-2026/",
         "teaser": "/assets/images/2026-06-june-excl-meeting-splash.jpg"
+      },{
+        "title": "ExCL July Meeting 2026",
+        "excerpt":"July 2026 ExCL meeting slides.     It appears that you don't have a PDF plugin for this browser. You can click here to download the PDF file.     Below is a LLM-generated summary from the meeting slides.     🚀 ExCL Monthly Update — July 2026   This month’s meeting covered Claude Code usage on ExCL systems, the completed integration of the Maxwell system, an in-progress OpenMPI deployment, an operations update, and an open discussion on access and tooling.     🤖 Claude Code in ExCL      See the Claude Code Quick-Start Guide in the ExCL User Docs   A dedicated VM for running Claude is coming soon; in the meantime, launch Claude sessions on Explorer and use Slurm to reach specific accelerators   Claude tends to launch sub-agents and other long-running jobs that can persist after exiting the TUI, so keep that in mind when closing claude     🖥️ Maxwell      Maxwell (formerly ORC HYP100/HYP65) has completed its move into ExCL            4x Nvidia A100, 4x AMD MI100       255 HT cores (one core failure), 1TB memory, 3TB /scratch storage       Fully integrated into ExCL authentication, file services, and Slurm       Standard access applies — free for all unless someone requires solo access for performance measurement             🛠️ OpenMPI Deployment      Generic build is complete and being deployed            The IRIS project is the initial driver for this deployment           Hardware-specific (accelerator) builds are next; each hardware/software combination requires a separate build — expected to take time but not be problematic   The module system will handle placing the correct build in your path   UCX deployment is under way; RoCE is generally supported on ExCL hardware, though some network provisioning work remains     ⚙️ Operations      With few exceptions, all research systems have been updated to Ubuntu 24.04, simplifying Slurm deployment   All host operating systems are up to date   Migration to new hypervisors will happen over the next few weeks; minimal user impact expected outside of migration windows, and this will also offer an alternative to home Claude VMs   DR tape backups of home directories are currently not working (an ITSD issue under investigation); backup to HA disk storage continues to work as expected, with no change to snapshot operations            As always, keep code in version control and pushed to a remote repository           Outages will continue on the first Tuesday of each month as needed     💬 Questions / Projects / Comments / Discussions      Recordings are available via the link in the newsletter   Is there interest in Ubuntu 26.04 LTS support?   Questions on license use.   Request for a quick load/user-count command (pdsh-like tool)   Interest in Parsec access in ExCL — individual user vs. team access, and cost     📌 Summary   July’s meeting introduced Claude Code usage guidance on ExCL, confirmed Maxwell’s full integration into the lab, previewed the in-progress OpenMPI/UCX deployment, gave an operations update (Ubuntu 24.04, hypervisor migration, a DR tape backup issue), and closed with user questions on LTS support, licensing, tooling, and Parsec access.  ","categories": ["ExCL"],
+        "tags": ["User Meetings"],
+        "url": "/excl/july-meeting-2026/",
+        "teaser": "/assets/images/2026-07-july-excl-meeting-splash.jpg"
       }]
