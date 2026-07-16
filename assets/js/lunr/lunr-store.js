@@ -17,12 +17,6 @@ var store = [{
         "url": "/excl/august-meeting-2023/",
         "teaser": "/assets/images/august-meeting-2023-splash.png"
       },{
-        "title": "Title",
-        "excerpt":" ","categories": ["ExCL"],
-        "tags": ["Template"],
-        "url": "/excl/template/",
-        "teaser": "/assets/images/template-teaser.png"
-      },{
         "title": "ExCL September Meeting 2023",
         "excerpt":"September 2023 ExCL meeting slides.   It appears that you don't have a PDF plugin for this browser. You can click here to download the PDF file.   ","categories": ["ExCL"],
         "tags": ["User Meetings"],
