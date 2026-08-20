@@ -1,4 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-07-16T14:17:42-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL July Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/july-meeting-2026/" rel="alternate" type="text/html" title="ExCL July Meeting 2026" /><published>2026-07-16T00:00:00-04:00</published><updated>2026-07-16T14:17:34-04:00</updated><id>https://www.excl.ornl.gov/excl/july-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/july-meeting-2026/">&lt;p&gt;July 2026 ExCL meeting slides.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-08-20T13:54:47-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL August Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/august-meeting-2026/" rel="alternate" type="text/html" title="ExCL August Meeting 2026" /><published>2026-08-20T00:00:00-04:00</published><updated>2026-08-20T13:54:31-04:00</updated><id>https://www.excl.ornl.gov/excl/august-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/august-meeting-2026/">&lt;p&gt;August 2026 ExCL meeting slides.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;object data=&quot;/assets/presentations/2026-08-august-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2026-08-august-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below is a LLM-generated summary from the meeting slides.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-excl-monthly-update--august-2026&quot;&gt;🚀 ExCL Monthly Update — August 2026&lt;/h1&gt;
+
+&lt;p&gt;This month’s meeting covered several policy changes driven by rising resource utilization (accelerator access, NVHPC updates, and login server limits), an update on Claude Code sandboxing mechanism to add Codex support, the upcoming move of benchtop systems to the TRC (3700) Lab A102, a new shared Apptainer image space, and the nvtop monitoring rollout.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-policy-changes--high-utilization-systems&quot;&gt;🔒 Policy Changes — High-Utilization Systems&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ExCL is seeing much higher utilization as the user base grows and more AI-space work is done, leading to resource contention&lt;/li&gt;
+  &lt;li&gt;Popular accelerator systems will move to require slurm allocations, enabling finer-grained allocation (e.g., by GPU count) and easing off-hour exclusive holds
+    &lt;ul&gt;
+      &lt;li&gt;This will be well-documented, including guidance on which resources remain available for non-accelerator applications&lt;/li&gt;
+      &lt;li&gt;Case in point: a large, non-accelerator design-space search on a popular system was blocking accelerator access for others&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The “triple crown” servers (affirmed, justify, pharaoh, secretariat) — 128 physical cores (256 virtual), 1 TB memory — are powerful but currently underutilized and well suited to larger problems&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-policy-clarification--nvhpc&quot;&gt;🧩 Policy Clarification — NVHPC&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Systems engineering is minimizing NVHPC (including CUDA) and driver updates&lt;/li&gt;
+  &lt;li&gt;NVIDIA/AMD driver updates are applied automatically as part of OS updates for stability and security, but drivers aren’t always reloaded automatically
+    &lt;ul&gt;
+      &lt;li&gt;If &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvidia-smi&lt;/code&gt; reports a driver mismatch, contact excl-help@ornl.gov — this is often fixable without a reboot&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;NVHPC itself is &lt;em&gt;not&lt;/em&gt; auto-updated; it’s updated on request or as new NVHPC/Linux runtime features require it&lt;/li&gt;
+  &lt;li&gt;If an NVHPC update causes problems, contact ExCL — rollback and virtualization remediation options are available&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-policy-changes--login-services&quot;&gt;🖧 Policy Changes — Login Services&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;New per-user aggregate resource limits on the ExCL login server, to prevent individual sessions from starving others:
+    &lt;ul&gt;
+      &lt;li&gt;CPU: 1 core worth of aggregate CPU time&lt;/li&gt;
+      &lt;li&gt;Memory pressure threshold: 1 GiB&lt;/li&gt;
+      &lt;li&gt;Maximum memory: 1.5 GiB&lt;/li&gt;
+      &lt;li&gt;Maximum swap: 512 MiB&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A VS Code server with extensions can no longer run on the login node — connect directly to a worker node instead (see the ExCL User Docs)
+    &lt;ul&gt;
+      &lt;li&gt;Good underutilized systems for a VS Code server: oswald, odswald00, oswald02, oswald03&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Caution: exceeding your quota on the login node also degrades responsiveness to worker nodes, since the login node is your jump host&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-claude-code-in-excl--updated-with-codex-support&quot;&gt;🤖 Claude Code in ExCL — Updated with Codex Support&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The Claude Code Quick-Start Guide in the ExCL User Docs now also covers Codex&lt;/li&gt;
+  &lt;li&gt;A dedicated VM for running Claude is coming soon; in the meantime, launch sessions on Explorer and use Slurm for jobs needing specific accelerators&lt;/li&gt;
+  &lt;li&gt;Claude tends to launch sub-agents and other long-running jobs that can persist after exiting the TUI, so keep that in mind when closing Claude&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-planning-move-to-trc-3700-lab-a102&quot;&gt;📦 Planning Move to TRC (3700) Lab A102&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Progress continues on moving into the A102 lab space&lt;/li&gt;
+  &lt;li&gt;Benchtop systems will need to be powered down and packed, affecting all benchtop FPGA systems and desktop systems including the Zenith systems&lt;/li&gt;
+  &lt;li&gt;The move is planned for early-to-mid September; ORNL-mover moves typically take ~14 days
+    &lt;ul&gt;
+      &lt;li&gt;Loose accelerators will be packed first, with enclosed systems powered down later, closer to the narrower moving window&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-shared-large-apptainer-image-space&quot;&gt;🗂️ Shared Large Apptainer Image Space&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Container images under 50G can be stored and shared via Harbor&lt;/li&gt;
+  &lt;li&gt;Larger, general-purpose images (&amp;gt;50G) can be shared via the new Apptainer shared project space&lt;/li&gt;
+  &lt;li&gt;Writing requires group membership, but any ExCL user can read from the space&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-nvtop&quot;&gt;📊 nvtop&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;nvtop&lt;/code&gt;, a simple GPU performance visualization tool supporting NVIDIA, AMD, and Intel GPUs, is being deployed to all systems via the excl-utils module&lt;/li&gt;
+  &lt;li&gt;Also useful as a quick way to check what GPU architecture (if any) a system has&lt;/li&gt;
+  &lt;li&gt;Already natively available on several systems, including Maxwell&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-questions--projects--comments--discussions&quot;&gt;💬 Questions / Projects / Comments / Discussions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Interest in Checkmk monitoring of cgroup resource limit counters for the new login limits&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
+
+&lt;p&gt;August’s meeting focused on policy changes addressing rising utilization: interactive-only access for popular accelerator systems, clarified NVHPC update practices, and new per-user resource limits on the login server (including the end of login-node VS Code servers). It also covered Codex support landing in the Claude Code quick-start guide, plans to move into the TRC (3700) Lab A102 in early-to-mid September, a new large-image Apptainer shared space, and the rollout of the nvtop GPU monitoring tool.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">August 2026 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL July Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/july-meeting-2026/" rel="alternate" type="text/html" title="ExCL July Meeting 2026" /><published>2026-07-16T00:00:00-04:00</published><updated>2026-07-16T14:17:34-04:00</updated><id>https://www.excl.ornl.gov/excl/july-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/july-meeting-2026/">&lt;p&gt;July 2026 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -896,114 +1019,4 @@ from the Consortium for the Advancement of Scientific Software&lt;/p&gt;
 
 &lt;h2 id=&quot;community-input&quot;&gt;Community Input&lt;/h2&gt;
 
-&lt;p&gt;We continue to welcome feedback from our users — especially around system needs, project requirements, and upcoming resource opportunities.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2025 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL May Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/may-meeting-2025/" rel="alternate" type="text/html" title="ExCL May Meeting 2025" /><published>2025-05-15T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/may-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/may-meeting-2025/">&lt;p&gt;May 2025 ExCL meeting slides.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;object data=&quot;/assets/presentations/2025-05-may-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-05-may-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Below is a LLM-generated summary of the meeting based on the presentation slides.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;excl-monthly-meeting-highlights--may-2025&quot;&gt;ExCL Monthly Meeting Highlights — May 2025&lt;/h1&gt;
-
-&lt;p&gt;The Experimental Computing Laboratory (ExCL) at Oak Ridge National Laboratory held its monthly meeting on &lt;strong&gt;May 15, 2025&lt;/strong&gt;, offering a variety of updates on system infrastructure, software improvements, and the official deployment of the powerful &lt;strong&gt;Mi300a&lt;/strong&gt; system. Here are the key takeaways from this month’s meeting.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;️-infrastructure--system-status&quot;&gt;🖥️ Infrastructure &amp;amp; System Status&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news&lt;/code&gt; Shell Command&lt;/strong&gt;: A new command-line utility &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news&lt;/code&gt; is now available to keep users informed of system status changes. The login banner will notify users of unread items. Eventually, this will integrate with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news@excl.groups.io&lt;/code&gt; mailing list.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Mi300a (“Faraday”)&lt;/strong&gt;: Officially deployed and ready for use.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;U280 FPGA&lt;/strong&gt;: Deployed to &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;milan3&lt;/code&gt;, with updated SLURM helper functions and environment setup.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;ThinLinc&lt;/strong&gt;: Updated to version &lt;strong&gt;4.18&lt;/strong&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Account Automation&lt;/strong&gt;: Improved reporting and automation reduce the burden of manual account management.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Security&lt;/strong&gt;: Gateway machines will now &lt;strong&gt;auto-update and reboot weekly&lt;/strong&gt; to improve vulnerability management.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;TinyPilot Update&lt;/strong&gt;: New run script menu enables &lt;strong&gt;remote system resets&lt;/strong&gt; via REISUB.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Siemens Remix and Licensing&lt;/strong&gt;: Deployed with no changes to user selections.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-spotlight-mi300a-system-faraday&quot;&gt;⚡ Spotlight: Mi300a System (“Faraday”)&lt;/h2&gt;
-
-&lt;h3 id=&quot;what-is-it&quot;&gt;What Is It?&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Supermicro &lt;strong&gt;AS-4145GH-TNMR&lt;/strong&gt; 4U air-cooled server.&lt;/li&gt;
-  &lt;li&gt;Contains &lt;strong&gt;4 APU nodes&lt;/strong&gt;, each with:
-    &lt;ul&gt;
-      &lt;li&gt;912 CDNA3 GPU units&lt;/li&gt;
-      &lt;li&gt;96 Zen 4 CPU cores&lt;/li&gt;
-      &lt;li&gt;128 GB HBM3 (for a total of 512 GB)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Ubuntu 24.04 LTS + ROCm 6.4.0&lt;/li&gt;
-  &lt;li&gt;Specialized riser/backplane needed for hardware expansion&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;why-its-interesting&quot;&gt;Why It’s Interesting&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;High-capability AMD GPUs&lt;/strong&gt; – ideal for AI and HPC workloads&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Infinity Cache &amp;amp; Interconnect&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Unified Memory Access&lt;/strong&gt; – significant for memory hierarchy research&lt;/li&gt;
-  &lt;li&gt;Fast performance – e.g., &lt;strong&gt;LLVM built in 5 minutes&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;how-to-access&quot;&gt;How to Access&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Log in via &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;login.excl.ornl.gov&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Hostname: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;faraday&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Load ROCm module: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;module load rocmmod&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Test setup with &lt;a href=&quot;https://github.com/jungwonkim/amd-toy&quot;&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amd-toy&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Contact &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;help@excl.ornl.gov&lt;/code&gt; if render group access is missing&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;documentation-links&quot;&gt;Documentation Links&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://docs.excl.ornl.gov/system-overview/faraday&quot;&gt;ExCL Faraday User Docs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.supermicro.com/en/accelerators/amd&quot;&gt;Supermicro AMD Accelerator Systems&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.supermicro.com/datasheet/datasheet_H13_QuadAPU.pdf&quot;&gt;Faraday Datasheet (PDF)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.supermicro.com/manuals/superserver/4U/MNL-2754.pdf&quot;&gt;Supermicro Hardware Manual (PDF)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-power-monitoring&quot;&gt;🔋 Power Monitoring&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;CheckMK Integration&lt;/strong&gt; for Mi300a power tracking is in progress.&lt;/li&gt;
-  &lt;li&gt;Documentation for power configuration will follow soon.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;-final-notes&quot;&gt;📣 Final Notes&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Questions, suggestions, and community discussions are welcome.&lt;/li&gt;
-  &lt;li&gt;Stay informed through the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;news&lt;/code&gt; shell command and the &lt;a href=&quot;mailto:news@excl.groups.io&quot;&gt;ExCL mailing list&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;The ExCL team continues to work on enhancing their infrastructure and documentation to better support users. The upcoming months promise exciting new deployments and important updates. Make sure to stay informed through the ExCL mailing list, monthly meetings, and their documentation updates!&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">May 2025 ExCL meeting slides.</summary></entry></feed>
+&lt;p&gt;We continue to welcome feedback from our users — especially around system needs, project requirements, and upcoming resource opportunities.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">July 2025 ExCL meeting slides.</summary></entry></feed>
