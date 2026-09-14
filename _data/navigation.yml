@@ -10,3 +10,5 @@ main:
     url: /about/
   - title: "Documentation"
     url: "https://docs.excl.ornl.gov"
+  - title: "Support Request"
+    url: /suport-request/

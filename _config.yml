@@ -135,9 +135,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:excl-help@ornl.gov"
+    - label: "Documentation"
+      icon: "fas fa-fw fa-book-open"
+      url: "https://docs.excl.ornl.gov"
+    - label: "Request Support"
+      icon: "fas fa-fw fa-life-ring"
+      url: /support-request/
 
 # Reading Files
 include:
