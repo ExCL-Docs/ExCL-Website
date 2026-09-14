@@ -15,7 +15,7 @@ ExCL is managed by the ORNL [Advanced Computing Systems Research Section](https:
 ExCL researchers investigate architectures such as multi- and many-core processors, Graphics Processing Units (GPUs), non-volatile memory systems, Field Programmable Gate Arrays (FPGAs), and highly heterogeneous systems.
 See our current resources at [ExCL Resources](https://docs.excl.ornl.gov/system-overview).
 
-Over the years, ExCL has adapted to the needs of the researchers of the Future Technologies Group (now the Advanced Computing Research Section) and their collaborators.
+Over the years, ExCL has adapted to the needs of the researchers of the Advanced Computing Research Section (formally the Future Technologies Group) and their collaborators.
 Now, ExCL is open to computer science researchers throughout the world.
 ExCL aims at being an open and collaborative platform where cutting edge computing research takes place.
 
@@ -26,7 +26,7 @@ This support also includes an active role by ORNL ACSR researchers in that these
 If you need something else, please let us know.
 If your workflow cannot be accommodated in the current ExCL infrastructure, also contact us and we will try to work it out. 
 ExCL staff is excited to try new architectures and designs and to help researchers to implement new workflows.
-Contact us at [excl-help@ornl.gov](mailto:excl-help@ornl.gov) to see how we can fit in with your research.
+Contact us using the [ExCL Support Request Form](https://www.excl.ornl.gov/support-request/) to see how we can fit in with your research.
 
 Happy computing!
 

@@ -42,7 +42,7 @@ This month's meeting covered several policy changes driven by rising resource ut
 
 * Systems engineering is minimizing NVHPC (including CUDA) and driver updates
 * NVIDIA/AMD driver updates are applied automatically as part of OS updates for stability and security, but drivers aren't always reloaded automatically
-  * If `nvidia-smi` reports a driver mismatch, contact excl-help@ornl.gov — this is often fixable without a reboot
+  * If `nvidia-smi` reports a driver mismatch, use [ExCL Support Request Form](https://www.excl.ornl.gov/support-request/) to report — this is often fixable without a reboot
 * NVHPC itself is *not* auto-updated; it's updated on request or as new NVHPC/Linux runtime features require it
 * If an NVHPC update causes problems, contact ExCL — rollback and virtualization remediation options are available
 

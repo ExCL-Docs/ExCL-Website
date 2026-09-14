@@ -12,7 +12,7 @@ Thanks for your interest in the Experimental Computing Laboratory (ExCL) at ORNL
 
 To use ExCL, researches need to have an approved project and an active account. The checklist below enumerates the steps for applying for access. We make project awards on at least a quarterly basis to industry, academia, laboratories, and others. Duration of projects is typically three or six months. Some systems have restrictions on access, such as the requirement for an NDA with the vendor, that we must navigate for each user, which may extend the time required for approval.
 
-If you have questions or need assistance, please contact [excl-help@ornl.gov](mailto:excl-help@ornl.gov).
+If you have questions or need assistance, please use the [ExCL Support Request Form](https://www.excl.ornl.gov/support-request/).
 
 ## Process
 

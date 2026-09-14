@@ -37,4 +37,4 @@ ExCL has been designed and is managed by researchers at the [Advanced Computing 
 
 All user documentation is available online [here](https://docs.excl.ornl.gov/).  User content creation is encouraged.
 
-[Contact us](mailto:excl-help@ornl.gov) for more information about the system and if you are interested in becoming a user or to sign up for our periodic newsletter.
+Contact us using the [ExCL Support Request Form](https://www.excl.ornl.gov/support-request/) for more information about the system and if you are interested in becoming a user or to sign up for our periodic newsletter.

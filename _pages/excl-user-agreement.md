@@ -14,7 +14,7 @@ Computers, software, and communications systems provided by the ExCL are to be u
 ExCL systems are provided to our users without any warranty. ExCL will not be held liable in the event of any system failure or data loss or corruption for any reason including, but not limited to: negligence, malicious action, accidental loss, software errors, hardware failures, network losses, or inadequate configuration of any computing resource or ancillary system.
 
 ### Support Expectations
-ExCL users are expected to have basic working knowledge of the systems that they are accessing. In the event of problems, ExCL provides support to our users during normal business hours (Eastern Standard Time USA). No guarantees or representations for support are provided outside of these times. Requests for high priority actions and issues should be sent to excl-help@ornl.gov.
+ExCL users are expected to have basic working knowledge of the systems that they are accessing. In the event of problems, ExCL provides support to our users during normal business hours (Eastern Standard Time USA). No guarantees or representations for support are provided outside of these times. Requests for high priority actions and issues should be submitted using the [ExCL Support Request Form](https://www.excl.ornl.gov/support-request/).
 
 ### Project Size Expectations
 ExCL has resources to support small research projects, each with typically a few active users.  ExCL currently cannot support large research projects or large classes of students.
@@ -58,7 +58,7 @@ Accounts on the ExCL machines are for the exclusive use of the individual user n
 
 Users are prohibited from changing or circumventing access controls to allow themselves or others to perform actions outside their authorized privileges. Users must notify the ExCL immediately when they become aware that any of the accounts used to access ExCL have been compromised.
 
-Users should inform the ExCL promptly of any changes in their contact information (E-mail, phone, affiliation, etc.) Updates should be sent to excl-help@ornl.gov.
+Users should inform the ExCL promptly of any changes in their contact information (E-mail, phone, affiliation, etc). Updates should be submitted using the [ExCL Support Request Form](https://www.excl.ornl.gov/support-request/).
 
 ### Foreign National Access
 Applicants who appear on a restricted foreign country listing in section 15 CFR 740.7 License Exceptions for Computers are denied access based on US Foreign Policy. The countries cited are Cuba, Iran, North Korea, Sudan, and Syria. Additionally, no work may be performed on ExCL computers on behalf of foreign nationals from these countries.
