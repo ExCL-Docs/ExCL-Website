@@ -6,9 +6,9 @@ main:
     url: /news/
   - title: "Accessing ExCL"
     url: /accessing-excl/
-  - title: "About"
-    url: /about/
   - title: "Documentation"
     url: "https://docs.excl.ornl.gov"
   - title: "Support Request"
     url: /support-request/
+  - title: "About"
+    url: /about/
