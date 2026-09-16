@@ -19,3 +19,11 @@ $header-font-family: $sans-serif;
 .greedy-nav a {
   color: #007833;
 }
+
+// The default $max-width (1280px) isn't wide enough to fit all of our
+// nav links without greedy-nav collapsing some into the "more" menu.
+// Raise the cap so every link fits, but keep it bounded so the header
+// doesn't stretch edge-to-edge with a huge gap on ultra-wide screens.
+.masthead__inner-wrap {
+  max-width: 1600px;
+}
