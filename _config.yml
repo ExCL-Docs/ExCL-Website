@@ -138,7 +138,7 @@ footer:
     - label: "Documentation"
       icon: "fas fa-fw fa-book-open"
       url: "https://docs.excl.ornl.gov"
-    - label: "Request Support"
+    - label: "Support Request"
       icon: "fas fa-fw fa-life-ring"
       url: /support-request/
 
