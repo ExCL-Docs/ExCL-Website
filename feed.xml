@@ -1,4 +1,127 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-09-17T13:45:30-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL September Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/september-meeting-2026/" rel="alternate" type="text/html" title="ExCL September Meeting 2026" /><published>2026-09-17T00:00:00-04:00</published><updated>2026-09-17T13:45:15-04:00</updated><id>https://www.excl.ornl.gov/excl/september-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/september-meeting-2026/">&lt;p&gt;September 2026 ExCL meeting slides.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://www.excl.ornl.gov/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.excl.ornl.gov/" rel="alternate" type="text/html" /><updated>2026-10-15T14:23:57-04:00</updated><id>https://www.excl.ornl.gov/feed.xml</id><title type="html">ExCL</title><subtitle>Website for ExCL.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><entry><title type="html">ExCL October Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2026/" rel="alternate" type="text/html" title="ExCL October Meeting 2026" /><published>2026-10-15T00:00:00-04:00</published><updated>2026-10-15T14:19:17-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2026/">&lt;p&gt;October 2026 ExCL meeting slides.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;object data=&quot;/assets/presentations/2026-10-october-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2026-10-october-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Below is a LLM-generated (and reviewed for correctness) summary from the meeting slides.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;-excl-monthly-update--october-2026&quot;&gt;🚀 ExCL Monthly Update — October 2026&lt;/h1&gt;
+
+&lt;p&gt;This month’s meeting covered the now-applied interactive-only Slurm access on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;faraday&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hudson&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maxwell&lt;/code&gt;, the rollout details of DOE-mandated multi-factor authentication for off-site SSH and web access, a reminder about the Freshdesk retirement, and the deprecation of the old &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;noback&lt;/code&gt; NFS directories.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-policy-changes--high-utilization-systems&quot;&gt;🔒 Policy Changes — High-Utilization Systems&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ExCL is seeing much higher utilization as the user base grows and more AI-space work is done, leading to resource contention.&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;faraday&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hudson&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maxwell&lt;/code&gt; are now restricted to Slurm access for both interactive and batch use.
+    &lt;ul&gt;
+      &lt;li&gt;This enables finer-grained allocation (e.g., by GPU count) and eases off-hour exclusive allocations when needed.&lt;/li&gt;
+      &lt;li&gt;The &lt;a href=&quot;https://slurm.schedmd.com/pam_slurm_adopt.html&quot;&gt;pam_slurm_adopt&lt;/a&gt; module limits SSH access to users holding a Slurm allocation on the node, with the SSH session constrained to the allocated resources.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;See the &lt;a href=&quot;https://docs.excl.ornl.gov/quick-start-guides/slurm#slurm-exclusive-systems&quot;&gt;Slurm section of the ExCL User Docs&lt;/a&gt; for updated documentation, including example &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun&lt;/code&gt; commands:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun -p nvidia --gres gpu:P100:2 --mem 128G -c 16 --pty bash&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;srun -p nvidia -w hudson --exclusive --pty bash&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;See the &lt;a href=&quot;https://docs.excl.ornl.gov/system-overview#primary-usage-notes&quot;&gt;Primary Usage Notes&lt;/a&gt; for guidance on recommended places to run jobs.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-external-login-changes--multi-factor-authentication&quot;&gt;🔐 External Login Changes — Multi-Factor Authentication&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;DOE has mandated multi-factor authentication for SSH and web services (e.g., ThinLinc) accessed from outside the ORNL network envelope.&lt;/li&gt;
+  &lt;li&gt;To set it up:
+    &lt;ol&gt;
+      &lt;li&gt;Access &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;login.excl.ornl.gov&lt;/code&gt; via SSH using a terminal emulator or a well-behaved SSH client like PuTTY.&lt;/li&gt;
+      &lt;li&gt;Receive a QR prompt — you will only receive this once.&lt;/li&gt;
+      &lt;li&gt;Configure a Google/Microsoft/FreeOTP authenticator using the QR prompt.&lt;/li&gt;
+      &lt;li&gt;Use the authenticator-generated, single-use, time-limited key as your password into ExCL.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If OTP setup fails on the first try, you will need to request an OTP reset from ITSD.
+    &lt;ul&gt;
+      &lt;li&gt;Make sure the Solution Center understands this is an &lt;strong&gt;Open Research OTP authenticator reset&lt;/strong&gt;, and include your UID in the request.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;login-int.excl.ornl.gov&lt;/code&gt; allows SSH login without an authenticator OTP but is not accessible from outside ORNL.
+    &lt;ul&gt;
+      &lt;li&gt;If your OTP setup fails, you can still reach the ExCL login node this way from on-site hosts and the GlobalProtect VPN.&lt;/li&gt;
+      &lt;li&gt;This will be redirected to the usual login node address once some SSHD configuration issues are addressed.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;With the appropriate port forwarding in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.ssh/config&lt;/code&gt;, VS Code and ThinLinc will continue to function as before.
+    &lt;ul&gt;
+      &lt;li&gt;ThinLinc sign-in also now uses OTP.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SSH keys are still supported (and preferred) for on-site login, but will be disabled for off-site login.&lt;/li&gt;
+  &lt;li&gt;ITSD documents a similar facility in the &lt;a href=&quot;https://ornl.servicenowservices.com/ec?id=kb_article&amp;amp;sysparm_article=KB0012088&amp;amp;table=kb_knowledge&amp;amp;searchTerm=ssh&quot;&gt;ITSD Open Research OTP&lt;/a&gt; knowledge base article.
+    &lt;ul&gt;
+      &lt;li&gt;The text about bastion hosts does not apply — the ExCL login node is our bastion host.&lt;/li&gt;
+      &lt;li&gt;If you cannot see this article, let ExCL know and the text will be incorporated elsewhere.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-excl-help-changes--freshdesk-retirement&quot;&gt;🎫 excl-help Changes — Freshdesk Retirement&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ExCL has discontinued Freshdesk for ticket management — free subscriptions have been discontinued, and Freshdesk doesn’t provide enough benefit to justify a paid one.&lt;/li&gt;
+  &lt;li&gt;The primary ticketing channel is now the &lt;a href=&quot;https://www.excl.ornl.gov/support-request/&quot;&gt;ExCL Support Request Form&lt;/a&gt;, also reachable from www.excl.ornl.gov via the Support Request tab.
+    &lt;ul&gt;
+      &lt;li&gt;Requests are emailed to ExCL and tracked in Todoist; all documentation references have been updated.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The excl-help@ornl.gov mailing list remains available to reach ExCL staff.&lt;/li&gt;
+  &lt;li&gt;No changes to the Slack group — informal contacts are always welcome.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;️-noback-deprecated&quot;&gt;🗄️ noback Deprecated&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you don’t have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/noback/&amp;lt;userId&amp;gt;&lt;/code&gt; directory on the login server, this does not apply to you.&lt;/li&gt;
+  &lt;li&gt;Several users still have files in the old &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;noback&lt;/code&gt; NFS hierarchy, which was originally deployed to bypass the then capacity-limited tape backup system.&lt;/li&gt;
+  &lt;li&gt;ORNL has replaced the tape backup system with a much larger-capacity one, and all home directories are now backed up to tape for disaster recovery; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;noback&lt;/code&gt; directories were never backed up this way (hence the name).&lt;/li&gt;
+  &lt;li&gt;Home directories are also snapshotted hourly (see &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zfs/&lt;/code&gt; — snapshot times are in UTC) and duplicated to a hot-spare file server.&lt;/li&gt;
+  &lt;li&gt;If you do have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;noback&lt;/code&gt; directory, ExCL systems engineering staff will contact you to help move it into your home directory hierarchy.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-questions--projects--comments--discussions&quot;&gt;💬 Questions / Projects / Comments / Discussions&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Accessing cgroup resource limit counters for login limits
+    &lt;ul&gt;
+      &lt;li&gt;Users can now view their own resource use and limit counters with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;login-quota-check&lt;/code&gt;.
+        &lt;ul&gt;
+          &lt;li&gt;See &lt;a href=&quot;https://docs.excl.ornl.gov/excl-support/access#login-server-quotas&quot;&gt;Access to ExCL # Login Server Quotas&lt;/a&gt; in the ExCL User Docs.&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;-summary&quot;&gt;📌 Summary&lt;/h2&gt;
+
+&lt;p&gt;October’s meeting followed up on September’s access-control changes: interactive-only Slurm access is now in effect on &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;faraday&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;hudson&lt;/code&gt;, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;maxwell&lt;/code&gt;, and multi-factor authentication for off-site SSH and web access is being rolled out, with guidance on OTP setup, resets via ITSD, the on-site &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;login-int.excl.ornl.gov&lt;/code&gt; fallback, and SSH keys remaining the preferred on-site method. It also reiterated the move from Freshdesk to the ExCL support request form and announced the deprecation of the legacy &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;noback&lt;/code&gt; NFS directories, with ExCL staff reaching out to affected users to migrate their files.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2026 ExCL meeting slides.</summary></entry><entry><title type="html">ExCL September Meeting 2026</title><link href="https://www.excl.ornl.gov/excl/september-meeting-2026/" rel="alternate" type="text/html" title="ExCL September Meeting 2026" /><published>2026-09-17T00:00:00-04:00</published><updated>2026-09-17T13:45:15-04:00</updated><id>https://www.excl.ornl.gov/excl/september-meeting-2026</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/september-meeting-2026/">&lt;p&gt;September 2026 ExCL meeting slides.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -1006,70 +1129,4 @@ from the Consortium for the Advancement of Scientific Software&lt;/p&gt;
     &lt;figcaption&gt;Pictures from SC25
 &lt;/figcaption&gt;
   
-&lt;/figure&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html"></summary></entry><entry><title type="html">ExCL October Meeting 2025</title><link href="https://www.excl.ornl.gov/excl/october-meeting-2025/" rel="alternate" type="text/html" title="ExCL October Meeting 2025" /><published>2025-10-16T00:00:00-04:00</published><updated>2025-10-31T11:44:05-04:00</updated><id>https://www.excl.ornl.gov/excl/october-meeting-2025</id><content type="html" xml:base="https://www.excl.ornl.gov/excl/october-meeting-2025/">&lt;p&gt;October 2025 ExCL meeting slides.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;object data=&quot;/assets/presentations/2025-10-october-excl-meeting.pdf&quot; type=&quot;application/pdf&quot; width=&quot;560&quot; height=&quot;700&quot;&gt;&lt;p&gt;It appears that you don&apos;t have a PDF plugin for this browser. You can &lt;a href=&quot;/assets/presentations/2025-10-october-excl-meeting.pdf&quot;&gt;click here to download the PDF file.&lt;/a&gt;&lt;/p&gt;&lt;/object&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Below is a LLM-generated summary from the meeting slides.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;highlights-from-the-october-2025-excl-monthly-meeting&quot;&gt;Highlights from the October 2025 ExCL Monthly Meeting&lt;/h2&gt;
-
-&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
-
-&lt;p&gt;On October 16, 2025, the Experimental Computing Laboratory (ExCL) held its monthly meeting in Oak Ridge, Tennessee. The meeting was presented by Steve Moulton, Aaron Young, and Jeffrey Vetter from the Advanced Computing Systems Research Section. Here are the key topics and updates discussed during the meeting.&lt;/p&gt;
-
-&lt;h3 id=&quot;new-hardware-list-and-state&quot;&gt;New Hardware List and State&lt;/h3&gt;
-
-&lt;h4 id=&quot;hardware-for-fpga-and-software-development&quot;&gt;Hardware for FPGA and Software Development&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AMD Versal VHK158 Evaluation Kit&lt;/strong&gt;: FPGA development, currently in a box for user deployment.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AMD Xilinx VCU118 Evaluation Kit&lt;/strong&gt;: FPGA development, similar status as the Versal kit.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Apple Studio M3 MAX&lt;/strong&gt;: Software development and GitLab runners, not deployed yet.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;GeForce RTX 5090 (Nvidia consumer grade)&lt;/strong&gt;: Development and analysis of software using GPUs, awaiting deployment.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;AMD Radeon RX 9070 XT&lt;/strong&gt;: Development and analysis of software using GPUs, requires 775 watts and will be deployed in one of the Milans.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;networking-and-remote-management&quot;&gt;Networking and Remote Management&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Cisco C9216 Network Switches&lt;/strong&gt;: Core networking, deployment requested for 3700 and K200.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Hubbell Rack Cabinet (lockable)&lt;/strong&gt;: Secure enclosure for Cisco switch, deployment requested for 3700.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;2026-hardware-requests-and-availability&quot;&gt;2026 Hardware Requests and Availability&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;AI/LLM Desktop (Framework Desktop)&lt;/strong&gt;: LLM development, shipping in Q4.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;NVIDIA DGX Spark (Grace Blackwell)&lt;/strong&gt;: LLM development and performance analysis, purchase invitation received.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Tenstorrent Blackhole P100a&lt;/strong&gt;: AI accelerator, awaiting availability.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;trc-lab-a102&quot;&gt;TRC Lab A102&lt;/h3&gt;
-
-&lt;p&gt;The TRC Lab A102 will be used for embedded system and microelectronics development. It will be on the ExCL private network with access to ORNL workstations network if needed. RHACS compliance will be required for admission.&lt;/p&gt;
-
-&lt;h3 id=&quot;general-updates&quot;&gt;General Updates&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Slurm Accounting&lt;/strong&gt;: Setup and configuration updates.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Account and Project Request Flows&lt;/strong&gt;: Improved with automation.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;System Specific Notes&lt;/strong&gt;: Now included in the message of the day (MOTD) shown on every system.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;gentle-reminders&quot;&gt;Gentle Reminders&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Login.excl.ornl.gov&lt;/strong&gt;: Not for computation or compiling, only for ssh and thinlinc access.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;VSCode Usage&lt;/strong&gt;: Avoid running VSCode on the login node via Remote-SSH or ThinLinc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;questions-and-discussion&quot;&gt;Questions and Discussion&lt;/h3&gt;
-
-&lt;p&gt;The meeting concluded with a Q&amp;amp;A session where various topics such as power measurement at the host, CPU, and APU levels were discussed.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="User Meetings" /><summary type="html">October 2025 ExCL meeting slides.</summary></entry></feed>
+&lt;/figure&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;avatar&quot;=&gt;nil, &quot;bio&quot;=&gt;nil, &quot;location&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;googlescholar&quot;=&gt;nil, &quot;orcid&quot;=&gt;nil, &quot;bitbucket&quot;=&gt;nil, &quot;github&quot;=&gt;nil, &quot;linkedin&quot;=&gt;nil}</name></author><category term="ExCL" /><category term="Presentations" /><summary type="html"></summary></entry></feed>
